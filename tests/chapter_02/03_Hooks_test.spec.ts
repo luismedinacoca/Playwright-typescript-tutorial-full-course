@@ -5,7 +5,7 @@ test.describe('Locators in Github', () => {
     console.log("1️⃣ Running before all Tests")
   })
   
-  test.afterAll(async ({ page }) => {
+  test.afterAll( async () => {
     console.log("2️⃣ Running after all Tests")
   });
 
@@ -31,7 +31,7 @@ test.describe('Locators in Github', () => {
 });
 
 
-test.describe.only('Hooks in Playwright - Suggested and enhanced by Deepseek', () => {
+test.describe('Hooks in Playwright - Suggested and enhanced by Deepseek', () => {
   // 1. Eliminar afterAll problemático
   test.beforeAll(() => {
     console.log("1️⃣ Running before all Tests");
