@@ -4,9 +4,9 @@ test.describe('Handling DatePicker', () => {
   let iframe: FrameLocator;
   
   const myToday = () => {
-    const today = new Date();
-    const todayDate = `${(today.getMonth() + 1).toString().padStart(2, '0')}/${today.getDate().toString().padStart(2, '0')}/${today.getFullYear()}`;
-    return todayDate;
+  const today = new Date();
+  const todayDate = `${(today.getMonth() + 1).toString().padStart(2, '0')}/${today.getDate().toString().padStart(2, '0')}/${today.getFullYear()}`;
+  return todayDate;
   }
   
   test.beforeEach(async ({ page }) => {
@@ -106,7 +106,7 @@ test.describe('Handling DatePicker', () => {
     console.log("Fecha actual en input:", await dateInput.inputValue());
   });
 
-  test('Test #05: Random month and day selection - FUTURE', async ({ page }) => {
+  test.skip('Test #05: Random month and day selection - FUTURE', async ({ page }) => {
     const dateInput = iframe.locator('#datepicker');
     await dateInput.click();
     await page.waitForTimeout(1500);
@@ -125,7 +125,7 @@ test.describe('Handling DatePicker', () => {
 
   })
 
-  test('Test #06: PAST Random month and day selection with verification', async ({ page }) => {
+  test.only('Test #06: PAST Random month and day selection with verification', async ({ page }) => {
     const dateInput = iframe.locator('#datepicker');
     
     // Abrir el datepicker
@@ -173,7 +173,7 @@ test.describe('Handling DatePicker', () => {
     console.log("Fecha actual en input:", await dateInput.inputValue());
   });
 
-  test('Test #07: Dynamically Today date', async () => {
+  test.only('Test #07: Dynamically Today date', async () => {
     const todayDate = myToday();
     const dateInput = iframe.locator('#datepicker');
     await dateInput.fill(todayDate);

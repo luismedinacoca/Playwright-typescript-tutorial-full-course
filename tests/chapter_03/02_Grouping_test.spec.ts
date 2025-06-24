@@ -1,12 +1,12 @@
 import { test, expect, FrameLocator } from '@playwright/test';
 
-test.describe('Handling DatePicker', () => {
+test.describe('SmokeTesting', () => {
   let iframe: FrameLocator;
   
   const myToday = () => {
-    const today = new Date();
-    const todayDate = `${(today.getMonth() + 1).toString().padStart(2, '0')}/${today.getDate().toString().padStart(2, '0')}/${today.getFullYear()}`;
-    return todayDate;
+  const today = new Date();
+  const todayDate = `${(today.getMonth() + 1).toString().padStart(2, '0')}/${today.getDate().toString().padStart(2, '0')}/${today.getFullYear()}`;
+  return todayDate;
   }
   
   test.beforeEach(async ({ page }) => {
@@ -31,15 +31,6 @@ test.describe('Handling DatePicker', () => {
     await expect(dateInput).toHaveValue('04/06/1977');
   });
 
-  test('Test #02: Selecting the today date', async () => {
-    const today = myToday();
-    const dateInput = iframe.locator('#datepicker');
-    await dateInput.click();
-    await iframe.locator('.ui-datepicker-today').click();
-    await dateInput.press('Tab');
-    await expect(dateInput).toHaveValue(today);
-  });
-
   test('Test #03: Random month and day selection - PAST', async ({ page }) => {
     const dateInput = iframe.locator('#datepicker');
     await dateInput.click();
@@ -56,6 +47,67 @@ test.describe('Handling DatePicker', () => {
     console.log("Random date:", randomDay);
     await iframe.locator(`text="${randomDay}"`).click()
     await page.waitForTimeout(2000);
+  });
+
+  test('Test #05: Random month and day selection - FUTURE', async ({ page }) => {
+    const dateInput = iframe.locator('#datepicker');
+    await dateInput.click();
+    await page.waitForTimeout(1500);
+
+    const randomTimes = Math.floor(Math.random()*10 + 1);
+    console.log("randomTimes: ", randomTimes);
+    for(let i = 0; i < randomTimes; i++) {
+      await iframe.locator('[title="Next"]').click();
+      await page.waitForTimeout(150);
+    }
+
+    const randomDay = Math.floor(Math.random()*30 + 1).toString();
+    console.log("Random date:", randomDay);
+    await iframe.locator(`text="${randomDay}"`).click()
+    await page.waitForTimeout(2000);
+
+  })
+
+  test('Test #07: Dynamically Today date', async () => {
+    const todayDate = myToday();
+    const dateInput = iframe.locator('#datepicker');
+    await dateInput.fill(todayDate);
+    await dateInput.press('Tab');
+    await expect(dateInput).toHaveValue(todayDate);
+  });
+});
+
+test.describe('RegressionTesting', () => {
+  let iframe: FrameLocator;
+  
+  const myToday = () => {
+  const today = new Date();
+  const todayDate = `${(today.getMonth() + 1).toString().padStart(2, '0')}/${today.getDate().toString().padStart(2, '0')}/${today.getFullYear()}`;
+  return todayDate;
+  }
+  
+  test.beforeEach(async ({ page }) => {
+    // 1. Navigate to JqueryUI URL:
+    await page.goto('https://jqueryui.com/datepicker/');
+    // 2. Initialize frameLocator for all tests
+    iframe = page.frameLocator('.demo-frame');
+  });
+
+  test.afterAll( async () => {
+    console.log("Finish Handling Datepicker test cases!")
+  })
+
+  test.afterEach( async ({ page }) => {
+    await page.waitForTimeout(1500);
+  })
+
+  test('Test #02: Selecting the today date', async () => {
+    const today = myToday();
+    const dateInput = iframe.locator('#datepicker');
+    await dateInput.click();
+    await iframe.locator('.ui-datepicker-today').click();
+    await dateInput.press('Tab');
+    await expect(dateInput).toHaveValue(today);
   });
 
   test('Test #04: PAST Random month and day selection with verification', async ({ page }) => {
@@ -106,25 +158,6 @@ test.describe('Handling DatePicker', () => {
     console.log("Fecha actual en input:", await dateInput.inputValue());
   });
 
-  test('Test #05: Random month and day selection - FUTURE', async ({ page }) => {
-    const dateInput = iframe.locator('#datepicker');
-    await dateInput.click();
-    await page.waitForTimeout(1500);
-
-    const randomTimes = Math.floor(Math.random()*10 + 1);
-    console.log("randomTimes: ", randomTimes);
-    for(let i = 0; i < randomTimes; i++) {
-      await iframe.locator('[title="Next"]').click();
-      await page.waitForTimeout(150);
-    }
-
-    const randomDay = Math.floor(Math.random()*30 + 1).toString();
-    console.log("Random date:", randomDay);
-    await iframe.locator(`text="${randomDay}"`).click()
-    await page.waitForTimeout(2000);
-
-  })
-
   test('Test #06: PAST Random month and day selection with verification', async ({ page }) => {
     const dateInput = iframe.locator('#datepicker');
     
@@ -171,13 +204,5 @@ test.describe('Handling DatePicker', () => {
     // Opcional: Verificar en consola
     console.log("Fecha esperada:", expectedDate);
     console.log("Fecha actual en input:", await dateInput.inputValue());
-  });
-
-  test('Test #07: Dynamically Today date', async () => {
-    const todayDate = myToday();
-    const dateInput = iframe.locator('#datepicker');
-    await dateInput.fill(todayDate);
-    await dateInput.press('Tab');
-    await expect(dateInput).toHaveValue(todayDate);
   });
 });
