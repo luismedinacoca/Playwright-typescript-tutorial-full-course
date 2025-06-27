@@ -8,7 +8,7 @@
     "skipLibCheck": true,            // Skip type checking of declaration files for faster builds
     "forceConsistentCasingInFileNames": true, // Ensure consistent file naming
     "outDir": "./dist",              // Output directory for compiled JavaScript files
-    "rootDir": ".",              // Root directory for TypeScript files
+    "rootDir": ".",                  // Root directory for TypeScript files
     "resolveJsonModule": true,       // Allow importing of JSON files
     "types": ["node", "playwright"], // Include the types for Node.js and Playwright
     "declaration": true,             // Generate .d.ts files for type declarations
