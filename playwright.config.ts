@@ -13,7 +13,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   timeout: 1 * 30 * 1000,
-  globalTimeout: 60 * 60 * 1000,  // 1 hour the whole execution
+  globalTimeout: 1 * 60 * 1000,  // 1 hour the whole execution
   expect: {
     timeout: 10000,
   },
@@ -28,7 +28,13 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: [
+    ['html'],
+    ['list'],
+    //['dot'],
+    ['json', {outputFile: './playwright-report/json-report/json-test-report.json'}],
+    ['junit', {outputFile: './playwright-report/json-report/junit-test-report.xml'}],
+  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     actionTimeout: 10000,
@@ -44,19 +50,24 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
+    /*
     {
       name: 'firefox',
       use: { 
       ...devices['Desktop Firefox'],
       viewport: { width: 1512, height: 972 },
+      },
     },
-    },
-    /*
+    */
+  
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome'],
+        viewport: { width: 1512, height: 972 }
+      },
     },
 
+    /*
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
