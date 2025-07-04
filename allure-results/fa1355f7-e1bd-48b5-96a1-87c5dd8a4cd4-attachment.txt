@@ -1,0 +1,10 @@
+[
+  'cypress-cucumber-boilerplate',
+  'cypress-demo-framework',
+  'cypress-playwright-webkit',
+  'testcafe-e2e-testing-boilerplate-project',
+  'webdriverio-ts-demo-framework',
+  'webdriverio-js-demo-framework',
+  'JavascriptBasics'
+]
+isContained:  true

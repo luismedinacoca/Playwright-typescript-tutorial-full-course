@@ -1,0 +1,10 @@
+{
+    "TestDataSet1": {
+        "skill_01": "Playwright - JoanMedia",
+        "skill_02": "Cypress - JoanMedia"
+    },
+    "TestDataSet2": {
+        "skill_01": "Javascript - JoanMedia",
+        "skill_02": "API Testing - JoanMedia"
+    }
+}

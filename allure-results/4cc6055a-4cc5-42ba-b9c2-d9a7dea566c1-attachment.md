@@ -1,0 +1,595 @@
+# Page snapshot
+
+```yaml
+- link "DuckDuckGo":
+  - /url: /?t=h_
+- combobox: Playwright - JoanMedia
+- button "search": S
+- banner:
+  - img
+  - paragraph: Upgrade to our browser.
+- img
+- img
+- img
+- paragraph:
+  - text: Try the
+  - strong: DuckDuckGo Browser.
+  - text: Fast. Free. Private.
+- link "Download Browser":
+  - /url: https://duckduckgo.com/windows?origin=funnel_browser_searchresults__popover
+  - img
+  - text: Download Browser
+- paragraph: Free
+- button:
+  - img
+- button "Open menu":
+  - text: Open menu
+  - img
+- navigation:
+  - list:
+    - listitem:
+      - link "All":
+        - /url: /?t=h_&q=Playwright+-+JoanMedia&ia=web
+        - img
+        - text: All
+    - listitem:
+      - link "Images":
+        - /url: /?t=h_&q=Playwright+-+JoanMedia&ia=images&iax=images
+    - listitem:
+      - link "Videos":
+        - /url: /?t=h_&q=Playwright+-+JoanMedia&ia=videos&iax=videos
+    - listitem:
+      - link "News":
+        - /url: /?t=h_&q=Playwright+-+JoanMedia&ia=news&iar=news
+    - listitem:
+      - link "Maps":
+        - /url: /?t=h_&q=Playwright+-+JoanMedia&iaxm=maps
+  - list:
+    - listitem:
+      - link "Assist":
+        - /url: /?t=h_&q=Playwright+-+JoanMedia&ia=web&assist=true
+        - img
+        - text: Assist
+    - listitem:
+      - link "Duck.ai":
+        - /url: /?t=h_&q=Playwright+-+JoanMedia&ia=chat
+        - img
+        - text: Duck.ai
+    - listitem:
+      - button "Search Settings ✀":
+        - img
+        - text: Search Settings ✀
+- navigation:
+  - text: Always protected
+  - switch "✓"
+  - text: "Argentina Safe search: moderate Any time"
+- list:
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: youtube.com
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20-%20JoanMedia%20site%3Awww.youtube.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-%20JoanMedia%20-site%3Awww.youtube.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain youtube.com":
+        - /url: /?q=Playwright%20%2D%20JoanMedia+site:www.youtube.com&t=h_
+        - img
+      - paragraph: YouTube
+      - link "https://www.youtube.com › c › joanmedia":
+        - /url: https://www.youtube.com/c/joanmedia
+        - paragraph: https://www.youtube.com › c › joanmedia
+      - heading "JoanMedia - YouTube" [level=2]:
+        - link "JoanMedia - YouTube":
+          - /url: https://www.youtube.com/c/joanmedia
+      - text: In this tutorial, we show QA engineers and developers how to build a complete Playwright test automation framework in Python using AI.
+  - listitem:
+    - heading "Videos for Playwright - JoanMedia" [level=2]:
+      - link "Videos for Playwright - JoanMedia":
+        - /url: /?t=h_&q=Playwright+-+JoanMedia&ia=videos&iax=videos
+        - img
+        - text: Videos for Playwright - JoanMedia
+    - list:
+      - listitem:
+        - link:
+          - /url: https://www.youtube.com/watch?v=FK_5SQPq6nY
+          - article:
+            - text: ►
+            - paragraph: 16:10
+            - 'heading "Playwright + Python: Framework for Automation Web Testing | Installation & Demo" [level=3]'
+            - text: 72K views YouTube | 3yr
+      - listitem:
+        - link:
+          - /url: https://www.youtube.com/watch?v=LWQmpIGTVQA
+          - article:
+            - text: ►
+            - paragraph: 13:10
+            - 'heading "Beyond Sequential Testing: A Dive into Parallel Execution with Playwright" [level=3]'
+            - text: 1.4K views YouTube | 1yr
+      - listitem:
+        - link:
+          - /url: https://www.youtube.com/watch?v=cNh3_r6UjKk
+          - article:
+            - text: ►
+            - paragraph: 19:40
+            - heading "AI-Driven Test Automation with Playwright + Cursor + MCP Server" [level=3]
+            - text: 33K views YouTube | 2mo
+      - listitem:
+        - link:
+          - /url: https://www.youtube.com/watch?v=tVTHx8p0ssc
+          - article:
+            - text: ►
+            - paragraph: 9:18
+            - 'heading "Playwright: Visual testing" [level=3]'
+            - text: 5.7K views YouTube | 1yr
+      - listitem:
+        - link:
+          - /url: https://www.youtube.com/watch?v=O5X4XusM35s
+          - article:
+            - text: ►
+            - paragraph: 12:58
+            - heading "Aria Snapshots | Playwright Automation Testing" [level=3]
+            - text: 215 views YouTube | 5mo
+      - listitem:
+        - link:
+          - /url: https://www.youtube.com/watch?v=0c2zWL1OuHs
+          - article:
+            - text: ►
+            - paragraph: 0:21
+            - heading "Revolutionize Web Interaction Automation with Playwright" [level=3]
+            - text: 193 views YouTube | 2mo
+      - listitem:
+        - link:
+          - /url: https://www.youtube.com/watch?v=0QKWk9al1F8
+          - article:
+            - text: ►
+            - paragraph: 1:11
+            - heading "Playwright Accessibility Tree A Deep Dive" [level=3]
+            - text: 156 views YouTube | 4mo
+      - listitem:
+        - link:
+          - /url: https://www.youtube.com/watch?v=a8Cnksf5J0w
+          - article:
+            - text: ►
+            - paragraph: 0:16
+            - 'heading "Code Generation to Framework Magic Selenium, Cypress & Playwright! #playwright #testing #mcpserver" [level=3]'
+            - text: 162 views YouTube | 2mo
+      - listitem:
+        - link:
+          - /url: https://www.youtube.com/watch?v=N7cOfBjauXw
+          - article:
+            - text: ►
+            - paragraph: 16:48
+            - 'heading "Playwright Sharding Explained: Maximize Your Testing Power (GITHUB ACTIONS)" [level=3]'
+            - text: 2.3K views YouTube | 1yr
+      - listitem:
+        - link:
+          - /url: https://www.youtube.com/watch?v=FK_5SQPq6nY
+          - article:
+            - text: ►
+            - paragraph: 16:10
+            - 'heading "Playwright + Python: Framework for Automation Web Testing | Installation & Demo" [level=3]'
+            - text: 72K views YouTube | 3yr
+      - listitem:
+        - link:
+          - /url: https://www.youtube.com/watch?v=B1iFnHDrIsY
+          - article:
+            - text: ►
+            - paragraph: 16:08
+            - 'heading "Improve Your Testing Workflow: Parameterized Tests in Playwright Unleashed!" [level=3]'
+            - text: 2.2K views YouTube | 1yr
+      - listitem: → More Videos
+    - button "Next page":
+      - img
+    - link "More Videos >":
+      - /url: /?t=h_&q=Playwright+-+JoanMedia&ia=videos&iax=videos
+    - text: Was this helpful?
+    - button "Positive feedback":
+      - img
+    - button "Negative feedback":
+      - img
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: joanmedia.dev
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20-%20JoanMedia%20site%3Awww.joanmedia.dev"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-%20JoanMedia%20-site%3Awww.joanmedia.dev"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain joanmedia.dev":
+        - /url: /?q=Playwright%20%2D%20JoanMedia+site:www.joanmedia.dev&t=h_
+        - img
+      - paragraph: joanmedia.dev
+      - link "https://www.joanmedia.dev › blog › playwright-free-course-using-javascript-or-typescript":
+        - /url: https://www.joanmedia.dev/blog/playwright-free-course-using-javascript-or-typescript
+        - paragraph: https://www.joanmedia.dev › blog › playwright-free-course-using-javascript-or-typescript
+      - heading "Playwright Free Course using Javascript or Typescript" [level=2]:
+        - link "Playwright Free Course using Javascript or Typescript":
+          - /url: https://www.joanmedia.dev/blog/playwright-free-course-using-javascript-or-typescript
+      - text: Dec 26, 2024·I created a set of free videos in youtube about Playwright. I will be sharing my experience with Playwright and how to use it in real projects related with automation.
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: linkedin.com
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20-%20JoanMedia%20site%3Awww.linkedin.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-%20JoanMedia%20-site%3Awww.linkedin.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain linkedin.com":
+        - /url: /?q=Playwright%20%2D%20JoanMedia+site:www.linkedin.com&t=h_
+        - img
+      - paragraph: LinkedIn
+      - link "https://www.linkedin.com › posts › joanmedia_playwright-free-course-using-javascript-or-activity-7278273015002411008-y7Q9":
+        - /url: https://www.linkedin.com/posts/joanmedia_playwright-free-course-using-javascript-or-activity-7278273015002411008-y7Q9
+        - paragraph: https://www.linkedin.com › posts › joanmedia_playwright-free-course-using-javascript-or-activity-7278273015002411008-y7Q9
+      - 'heading "JoanMedia on LinkedIn: Playwright Free Course using Javascript or ..." [level=2]':
+        - 'link "JoanMedia on LinkedIn: Playwright Free Course using Javascript or ..."':
+          - /url: https://www.linkedin.com/posts/joanmedia_playwright-free-course-using-javascript-or-activity-7278273015002411008-y7Q9
+      - text: 🎉 Exciting News! 🎉 I&#39;m thrilled to announce a FREE course on my website featuring a comprehensive series of videos about Playwright…
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: joanmedia.ruclips.net
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20-%20JoanMedia%20site%3Ajoanmedia.ruclips.net"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-%20JoanMedia%20-site%3Ajoanmedia.ruclips.net"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain joanmedia.ruclips.net":
+        - /url: /?q=Playwright%20%2D%20JoanMedia+site:joanmedia.ruclips.net&t=h_
+        - img
+      - paragraph: joanmedia.ruclips.net
+      - link "https://joanmedia.ruclips.net":
+        - /url: https://joanmedia.ruclips.net/
+        - paragraph: https://joanmedia.ruclips.net
+      - heading "JoanMedia" [level=2]:
+        - link "JoanMedia":
+          - /url: https://joanmedia.ruclips.net/
+      - text: In this video, we explore how the pw-api-plugin enhances the API testing experience in Playwright by making your requests more traceable and your reports more visual - directly integrated into the Playwright HTML report!
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: joanmedia.dev
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20-%20JoanMedia%20site%3Awww.joanmedia.dev"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-%20JoanMedia%20-site%3Awww.joanmedia.dev"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain joanmedia.dev":
+        - /url: /?q=Playwright%20%2D%20JoanMedia+site:www.joanmedia.dev&t=h_
+        - img
+      - paragraph: joanmedia.dev
+      - link "https://www.joanmedia.dev › projects":
+        - /url: https://www.joanmedia.dev/projects
+        - paragraph: https://www.joanmedia.dev › projects
+      - heading "Projects - joanmedia.dev" [level=2]:
+        - link "Projects - joanmedia.dev":
+          - /url: https://www.joanmedia.dev/projects
+      - text: This project/repository hosts the foundational code for the workshop at PyCon Colombia 2024 and PyCon US 2025, focusing on Playwright—a versatile, open-source automation library created by Microsoft, recently enhanced to support Python.
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: linkedin.com
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20-%20JoanMedia%20site%3Awww.linkedin.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-%20JoanMedia%20-site%3Awww.linkedin.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain linkedin.com":
+        - /url: /?q=Playwright%20%2D%20JoanMedia+site:www.linkedin.com&t=h_
+        - img
+      - paragraph: LinkedIn
+      - link "https://www.linkedin.com › posts › joanmedia_playwrightdev-alternative-html-report-activity-7211014930613846016-ml2m":
+        - /url: https://www.linkedin.com/posts/joanmedia_playwrightdev-alternative-html-report-activity-7211014930613846016-ml2m
+        - paragraph: https://www.linkedin.com › posts › joanmedia_playwrightdev-alternative-html-report-activity-7211014930613846016-ml2m
+      - 'heading "JoanMedia on LinkedIn: @Playwrightdev | Alternative HTML report ..." [level=2]':
+        - 'link "JoanMedia on LinkedIn: @Playwrightdev | Alternative HTML report ..."':
+          - /url: https://www.linkedin.com/posts/joanmedia_playwrightdev-alternative-html-report-activity-7211014930613846016-ml2m
+      - text: 🚀 Exciting News for Playwright Users! 🚀 Let me introduce the Ortoni Report (Playwright report - unofficial), a powerful and highly customizable HTML report…
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: joanmedia.dev
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20-%20JoanMedia%20site%3Awww.joanmedia.dev"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-%20JoanMedia%20-site%3Awww.joanmedia.dev"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain joanmedia.dev":
+        - /url: /?q=Playwright%20%2D%20JoanMedia+site:www.joanmedia.dev&t=h_
+        - img
+      - paragraph: joanmedia.dev
+      - link "https://www.joanmedia.dev › blog":
+        - /url: https://www.joanmedia.dev/blog/
+        - paragraph: https://www.joanmedia.dev › blog
+      - heading "Blog" [level=2]:
+        - link "Blog":
+          - /url: https://www.joanmedia.dev/blog/
+      - text: Playwright Free Course using Javascript or Typescript Playwright I created a set of free videos in youtube about Playwright. I will be sharing my experience with Playwright and how to use it in real projects related with automation.
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: linkedin.com
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20-%20JoanMedia%20site%3Awww.linkedin.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-%20JoanMedia%20-site%3Awww.linkedin.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain linkedin.com":
+        - /url: /?q=Playwright%20%2D%20JoanMedia+site:www.linkedin.com&t=h_
+        - img
+      - paragraph: LinkedIn
+      - link "https://www.linkedin.com › posts › joanmedia_aria-snapshots-playwright-automation-testing-activity-7287151584998748161-hdJP":
+        - /url: https://www.linkedin.com/posts/joanmedia_aria-snapshots-playwright-automation-testing-activity-7287151584998748161-hdJP
+        - paragraph: https://www.linkedin.com › posts › joanmedia_aria-snapshots-playwright-automation-testing-activity-7287151584998748161-hdJP
+      - 'heading "JoanMedia on LinkedIn: Aria Snapshots | Playwright Automation Testing" [level=2]':
+        - 'link "JoanMedia on LinkedIn: Aria Snapshots | Playwright Automation Testing"':
+          - /url: https://www.linkedin.com/posts/joanmedia_aria-snapshots-playwright-automation-testing-activity-7287151584998748161-hdJP
+      - text: "🌟 Level Up Your Testing with Playwright: Aria Snapshots Tutorial 🚀 Are you ready to take your testing skills to the next level with Playwright? In this video, we dive into Aria Snapshots, a ..."
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: joanmedia.dev
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20-%20JoanMedia%20site%3Awww.joanmedia.dev"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-%20JoanMedia%20-site%3Awww.joanmedia.dev"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain joanmedia.dev":
+        - /url: /?q=Playwright%20%2D%20JoanMedia+site:www.joanmedia.dev&t=h_
+        - img
+      - paragraph: joanmedia.dev
+      - link "https://www.joanmedia.dev › blog › tag › Javascript":
+        - /url: https://www.joanmedia.dev/blog/tag/Javascript
+        - paragraph: https://www.joanmedia.dev › blog › tag › Javascript
+      - heading "Blog - Javascript - joanmedia.dev" [level=2]:
+        - link "Blog - Javascript - joanmedia.dev":
+          - /url: https://www.joanmedia.dev/blog/tag/Javascript
+      - text: Playwright I created a set of free videos in youtube about Playwright. I will be sharing my experience with Playwright and how to use it in real projects related with automation. Javascript Typescript Web Automation How to setup Appium for Mobile Testing + WebdriverIO
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: linkedin.com
+      - link "Only include results for this site":
+        - /url: "?q=Playwright%20-%20JoanMedia%20site%3Awww.linkedin.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Playwright%20-%20JoanMedia%20-site%3Awww.linkedin.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain linkedin.com":
+        - /url: /?q=Playwright%20%2D%20JoanMedia+site:www.linkedin.com&t=h_
+        - img
+      - paragraph: LinkedIn
+      - link "https://www.linkedin.com › posts › joanmedia_integrate-playwright-with-claude-ai-from-activity-7312491562695819265-lGir":
+        - /url: https://www.linkedin.com/posts/joanmedia_integrate-playwright-with-claude-ai-from-activity-7312491562695819265-lGir
+        - paragraph: https://www.linkedin.com › posts › joanmedia_integrate-playwright-with-claude-ai-from-activity-7312491562695819265-lGir
+      - heading "Integrate Playwright with Claude AI from Scratch - LinkedIn" [level=2]:
+        - link "Integrate Playwright with Claude AI from Scratch - LinkedIn":
+          - /url: https://www.linkedin.com/posts/joanmedia_integrate-playwright-with-claude-ai-from-activity-7312491562695819265-lGir
+      - text: Claude AI + Playwright MCP Server 🤖🎭 If you're into test automation or just curious about how AI can actually interact with a real browser — I think you'll enjoy this. In this video, I ...
+  - listitem:
+    - paragraph: Searches related to Playwright - JoanMedia
+    - list:
+      - listitem:
+        - link "dame joan plowright dies":
+          - /url: "?q=dame%20joan%20plowright%20dies&t=h_"
+      - listitem:
+        - link "joan plowright dies at 95":
+          - /url: "?q=joan%20plowright%20dies%20at%2095&t=h_"
+      - listitem:
+        - link "did joan plowright die":
+          - /url: "?q=did%20joan%20plowright%20die&t=h_"
+      - listitem:
+        - link "joan plowright husband":
+          - /url: "?q=joan%20plowright%20husband&t=h_"
+    - list:
+      - listitem:
+        - link "joan plowright obituary":
+          - /url: "?q=joan%20plowright%20obituary&t=h_"
+      - listitem:
+        - link "laurence olivier's wife":
+          - /url: "?q=laurence%20olivier%27s%20wife&t=h_"
+      - listitem:
+        - link "joan plowright laurence olivier children":
+          - /url: "?q=joan%20plowright%20laurence%20olivier%20children&t=h_"
+      - listitem:
+        - link "joan plowright funeral":
+          - /url: "?q=joan%20plowright%20funeral&t=h_"
+- button "More results"
+- list:
+  - button "Close menu":
+    - text: Close menu
+    - img
+  - paragraph: Upgrade to our Private Browser
+  - paragraph: Fast. Secure. Free.
+  - link "Install Windows Browser":
+    - /url: /windows
+    - img
+    - text: Install Windows Browser
+  - list:
+    - listitem: Search
+    - listitem:
+      - link "Homepage":
+        - /url: https://start.duckduckgo.com/
+    - listitem:
+      - link "Themes":
+        - /url: /settings#appearance
+    - listitem:
+      - link "Settings":
+        - /url: /settings
+  - list:
+    - listitem: Share Feedback
+    - listitem:
+      - button "Positive feedback":
+        - img
+      - button "Negative feedback":
+        - img
+  - list:
+    - listitem: Downloads
+    - listitem:
+      - link "iOS Browser":
+        - /url: https://apps.apple.com/app/duckduckgo-private-browser/id663592361?platform=iphone&pt=866401&mt=8&ct=serp-atb-serp
+    - listitem:
+      - link "Android Browser":
+        - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_campaign%3Dserp-atb-serp%26origin%3Dfunnel_playstore_searchresults
+    - listitem:
+      - link "Mac Browser":
+        - /url: /mac?origin=funnel_browser_searchresults
+    - listitem:
+      - link "Windows Browser":
+        - /url: /windows?origin=funnel_browser_searchresults
+    - listitem:
+      - link "Browser Extensions":
+        - /url: /duckduckgo-help-pages/desktop/adding-duckduckgo-to-your-browser/
+  - list:
+    - listitem: More From DuckDuckGo
+    - listitem:
+      - link "Duck.ai":
+        - /url: https://duck.ai
+      - text: NEW
+    - listitem:
+      - link "Email Protection":
+        - /url: /email
+    - listitem:
+      - link "Newsletter":
+        - /url: /newsletter
+    - listitem:
+      - link "Blog":
+        - /url: /blog
+  - list:
+    - listitem: Learn More
+    - listitem:
+      - link "What’s New":
+        - /url: /updates
+    - listitem:
+      - link "Compare Privacy":
+        - /url: /compare-privacy
+    - listitem:
+      - link "About Our Browser":
+        - /url: /app
+    - listitem:
+      - link "About DuckDuckGo":
+        - /url: /about
+  - list:
+    - listitem: Other Resources
+    - listitem:
+      - link "Help":
+        - /url: /duckduckgo-help-pages
+    - listitem:
+      - link "Community":
+        - /url: https://www.reddit.com/r/duckduckgo/
+    - listitem:
+      - link "Careers":
+        - /url: /careers
+    - listitem:
+      - link "Privacy Policy":
+        - /url: /privacy
+    - listitem:
+      - link "Terms of Service":
+        - /url: /terms
+    - listitem:
+      - link "Press Kit":
+        - /url: /press
+    - listitem:
+      - link "Advertise on Search":
+        - /url: /duckduckgo-help-pages/company/advertise-on-duckduckgo-search
+- img
+- heading "Get Our Windows Browser" [level=3]
+- paragraph: Protect your data as you search and browse.
+- link "Download":
+  - /url: https://duckduckgo.com/windows?origin=funnel_browser_searchresults__footercard
+  - img
+  - text: Download
+- heading "Learn More" [level=3]
+- list:
+  - listitem:
+    - link "What's New":
+      - /url: https://duckduckgo.com/updates
+  - listitem:
+    - link "About Browser":
+      - /url: https://duckduckgo.com/app
+  - listitem:
+    - link "Compare Privacy":
+      - /url: https://duckduckgo.com/compare-privacy
+- heading "Get More" [level=3]
+- list:
+  - listitem:
+    - link "Email Protection":
+      - /url: https://duckduckgo.com/email
+  - listitem:
+    - link "Newsletter":
+      - /url: https://duckduckgo.com/newsletter
+- button "Share Feedback"
+```

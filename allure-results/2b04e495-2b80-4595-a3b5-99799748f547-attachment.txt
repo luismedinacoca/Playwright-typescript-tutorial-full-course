@@ -1,0 +1,21 @@
+[
+  'curso-de-cypress',
+  'cypress-api-framework',
+  'cypress-wicka11y',
+  'cypress-ajv-schema-validation',
+  'cypress-testing-library-demo',
+  'cypress-13-review',
+  'cypress-cucumber-boilerplate',
+  'cypress-typescript-tips-tricks',
+  'cypress-postgres-template',
+  'cypress-plugins',
+  'cypress-course',
+  'cypress-demo-framework',
+  'cypress-reports',
+  'cypress-cucumber-preprocessor',
+  'cypress-playwright-webkit',
+  'cypress-webkit',
+  'cypress-cucumber',
+  'cypress-testrail-reporter'
+]
+isContained:  false

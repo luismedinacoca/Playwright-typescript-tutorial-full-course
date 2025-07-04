@@ -1,0 +1,12 @@
+[
+  'playwright-pw-api-plugin',
+  'playwright-mcp-server',
+  'playwright-pycon',
+  'playwright-cucumber-starter',
+  'playwright-accessibility',
+  'playwright-test',
+  'playwright-udemy',
+  'playwright-python-test-framework',
+  'cypress-playwright-webkit'
+]
+isContained:  false

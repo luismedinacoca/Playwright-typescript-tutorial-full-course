@@ -1,0 +1,176 @@
+# Page snapshot
+
+```yaml
+- link "DuckDuckGo":
+  - /url: /?t=h_
+- combobox: Playwright JoanMedina
+- button "search": S
+- banner:
+  - img
+  - paragraph: Upgrade to our browser.
+- img
+- img
+- img
+- paragraph:
+  - text: Try the
+  - strong: DuckDuckGo Browser.
+  - text: Fast. Free. Private.
+- link "Download Browser":
+  - /url: https://duckduckgo.com/windows?origin=funnel_browser_searchresults__popover
+  - img
+  - text: Download Browser
+- paragraph: Free
+- button:
+  - img
+- button "Open menu":
+  - text: Open menu
+  - img
+- navigation:
+  - list:
+    - listitem:
+      - link "All":
+        - /url: /?t=h_&q=Playwright+JoanMedina&ia=web
+        - img
+        - text: All
+    - listitem:
+      - link "Images":
+        - /url: /?t=h_&q=Playwright+JoanMedina&ia=images&iax=images
+  - list:
+    - listitem:
+      - link "Duck.ai":
+        - /url: /?t=h_&q=Playwright+JoanMedina&ia=chat
+        - img
+        - text: Duck.ai
+    - listitem:
+      - button "Search Settings ✀":
+        - img
+        - text: Search Settings ✀
+- navigation:
+  - text: Always protected
+  - switch "✓"
+  - text: "Argentina Safe search: moderate Any time"
+- list:
+  - button "Close menu":
+    - text: Close menu
+    - img
+  - paragraph: Upgrade to our Private Browser
+  - paragraph: Fast. Secure. Free.
+  - link "Install Windows Browser":
+    - /url: /windows
+    - img
+    - text: Install Windows Browser
+  - list:
+    - listitem: Search
+    - listitem:
+      - link "Homepage":
+        - /url: https://start.duckduckgo.com/
+    - listitem:
+      - link "Themes":
+        - /url: /settings#appearance
+    - listitem:
+      - link "Settings":
+        - /url: /settings
+  - list:
+    - listitem: Share Feedback
+    - listitem:
+      - button "Positive feedback":
+        - img
+      - button "Negative feedback":
+        - img
+  - list:
+    - listitem: Downloads
+    - listitem:
+      - link "iOS Browser":
+        - /url: https://apps.apple.com/app/duckduckgo-private-browser/id663592361?platform=iphone&pt=866401&mt=8&ct=serp-atb-serp
+    - listitem:
+      - link "Android Browser":
+        - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_campaign%3Dserp-atb-serp%26origin%3Dfunnel_playstore_searchresults
+    - listitem:
+      - link "Mac Browser":
+        - /url: /mac?origin=funnel_browser_searchresults
+    - listitem:
+      - link "Windows Browser":
+        - /url: /windows?origin=funnel_browser_searchresults
+    - listitem:
+      - link "Browser Extensions":
+        - /url: /duckduckgo-help-pages/desktop/adding-duckduckgo-to-your-browser/
+  - list:
+    - listitem: More From DuckDuckGo
+    - listitem:
+      - link "Duck.ai":
+        - /url: https://duck.ai
+      - text: NEW
+    - listitem:
+      - link "Email Protection":
+        - /url: /email
+    - listitem:
+      - link "Newsletter":
+        - /url: /newsletter
+    - listitem:
+      - link "Blog":
+        - /url: /blog
+  - list:
+    - listitem: Learn More
+    - listitem:
+      - link "What’s New":
+        - /url: /updates
+    - listitem:
+      - link "Compare Privacy":
+        - /url: /compare-privacy
+    - listitem:
+      - link "About Our Browser":
+        - /url: /app
+    - listitem:
+      - link "About DuckDuckGo":
+        - /url: /about
+  - list:
+    - listitem: Other Resources
+    - listitem:
+      - link "Help":
+        - /url: /duckduckgo-help-pages
+    - listitem:
+      - link "Community":
+        - /url: https://www.reddit.com/r/duckduckgo/
+    - listitem:
+      - link "Careers":
+        - /url: /careers
+    - listitem:
+      - link "Privacy Policy":
+        - /url: /privacy
+    - listitem:
+      - link "Terms of Service":
+        - /url: /terms
+    - listitem:
+      - link "Press Kit":
+        - /url: /press
+    - listitem:
+      - link "Advertise on Search":
+        - /url: /duckduckgo-help-pages/company/advertise-on-duckduckgo-search
+- img
+- heading "Get Our Windows Browser" [level=3]
+- paragraph: Protect your data as you search and browse.
+- link "Download":
+  - /url: https://duckduckgo.com/windows?origin=funnel_browser_searchresults__footercard
+  - img
+  - text: Download
+- heading "Learn More" [level=3]
+- list:
+  - listitem:
+    - link "What's New":
+      - /url: https://duckduckgo.com/updates
+  - listitem:
+    - link "About Browser":
+      - /url: https://duckduckgo.com/app
+  - listitem:
+    - link "Compare Privacy":
+      - /url: https://duckduckgo.com/compare-privacy
+- heading "Get More" [level=3]
+- list:
+  - listitem:
+    - link "Email Protection":
+      - /url: https://duckduckgo.com/email
+  - listitem:
+    - link "Newsletter":
+      - /url: https://duckduckgo.com/newsletter
+- button "Share Feedback"
+```

@@ -1,0 +1,289 @@
+# Page snapshot
+
+```yaml
+- link "Skip to content":
+  - /url: "#start-of-content"
+- banner:
+  - heading "Navigation Menu" [level=2]
+  - link "Homepage":
+    - /url: /
+  - navigation "Global":
+    - list:
+      - listitem:
+        - button "Product"
+      - listitem:
+        - button "Solutions"
+      - listitem:
+        - button "Resources"
+      - listitem:
+        - button "Open Source"
+      - listitem:
+        - button "Enterprise"
+      - listitem:
+        - link "Pricing":
+          - /url: https://github.com/pricing
+  - button "Search or jump to…": Search or jump to...
+  - link "Sign in":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FJoanEsquivel
+  - link "Sign up":
+    - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E&source=header
+  - button "Appearance settings"
+- main:
+  - img "@JoanEsquivel"
+  - strong: JoanEsquivel
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FJoanEsquivel
+  - navigation "User profile":
+    - link "Overview":
+      - /url: /JoanEsquivel
+    - link "Repositories 72":
+      - /url: /JoanEsquivel?tab=repositories
+    - link "Projects 2":
+      - /url: /JoanEsquivel?tab=projects
+    - link "Packages":
+      - /url: /JoanEsquivel?tab=packages
+    - link "Stars 18":
+      - /url: /JoanEsquivel?tab=stars
+  - img "@JoanEsquivel"
+  - strong: JoanEsquivel
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FJoanEsquivel
+  - link "View JoanEsquivel's full-sized avatar":
+    - /url: https://avatars.githubusercontent.com/u/48256183?v=4
+    - img "View JoanEsquivel's full-sized avatar"
+  - text: 🦉 Learning
+  - heading "Joan Esquivel JoanEsquivel" [level=1]
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FJoanEsquivel
+  - text: Quality Assurance Automation Specialist
+  - link "339 followers":
+    - /url: https://github.com/JoanEsquivel?tab=followers
+  - text: ·
+  - link "10 following":
+    - /url: https://github.com/JoanEsquivel?tab=following
+  - list:
+    - 'listitem "Home location: Costa Rica"': Costa Rica
+    - listitem:
+      - link "https://www.joanmedia.dev/":
+        - /url: https://www.joanmedia.dev/
+    - listitem:
+      - img "X"
+      - link "@joan_media":
+        - /url: https://twitter.com/joan_media
+  - heading "Achievements" [level=2]:
+    - link "Achievements":
+      - /url: /JoanEsquivel?tab=achievements
+  - 'link "Achievement: Starstruck"':
+    - /url: /JoanEsquivel?achievement=starstruck&tab=achievements
+    - 'img "Achievement: Starstruck"'
+  - 'link "Achievement: Pull Shark x2"':
+    - /url: /JoanEsquivel?achievement=pull-shark&tab=achievements
+    - 'img "Achievement: Pull Shark"'
+    - text: x2
+  - 'link "Achievement: Quickdraw"':
+    - /url: /JoanEsquivel?achievement=quickdraw&tab=achievements
+    - 'img "Achievement: Quickdraw"'
+  - 'link "Achievement: YOLO"':
+    - /url: /JoanEsquivel?achievement=yolo&tab=achievements
+    - 'img "Achievement: YOLO"'
+  - 'link "Achievement: Arctic Code Vault Contributor"':
+    - /url: /JoanEsquivel?achievement=arctic-code-vault-contributor&tab=achievements
+    - 'img "Achievement: Arctic Code Vault Contributor"'
+  - button "Block or Report"
+  - search "Repositories":
+    - searchbox "Find a repository…": Playwright
+    - group:
+      - button "Type"
+    - group:
+      - button "Language"
+    - group:
+      - button "Sort"
+  - strong: "9"
+  - text: results for repositories matching
+  - strong: Playwright
+  - text: sorted by
+  - strong: last updated
+  - link "Clear filter":
+    - /url: /JoanEsquivel?tab=repositories
+  - list:
+    - listitem:
+      - heading "playwright-pw-api-plugin Public" [level=3]:
+        - link "playwright-pw-api-plugin":
+          - /url: /JoanEsquivel/playwright-pw-api-plugin
+        - text: Public
+      - paragraph: This project is intended to explore and experiment with the Playwright PW API plugin. The goal is to understand its features, capabilities, and best practices for integrating Playwright's API testi…
+      - link "plugin":
+        - /url: /topics/plugin
+      - link "testing":
+        - /url: /topics/testing
+      - link "api":
+        - /url: /topics/api
+      - link "playwright":
+        - /url: /topics/playwright
+      - text: JavaScript
+      - link "star 2":
+        - /url: /JoanEsquivel/playwright-pw-api-plugin/stargazers
+        - img "star"
+        - text: "2"
+      - text: Updated May 25, 2025on May 25
+    - listitem:
+      - heading "playwright-mcp-server Public" [level=3]:
+        - link "playwright-mcp-server":
+          - /url: /JoanEsquivel/playwright-mcp-server
+        - text: Public
+      - paragraph: This is an experimental project to integrate Playwright with MCP. My plan is to conduct in-depth research, understand the intricacies of the integration, and review the best articles on the web to …
+      - text: TypeScript
+      - link "star 8":
+        - /url: /JoanEsquivel/playwright-mcp-server/stargazers
+        - img "star"
+        - text: "8"
+      - link "fork 1":
+        - /url: /JoanEsquivel/playwright-mcp-server/forks
+        - img "fork"
+        - text: "1"
+      - text: Updated May 6, 2025on May 6
+    - listitem:
+      - heading "playwright-pycon Public" [level=3]:
+        - link "playwright-pycon":
+          - /url: /JoanEsquivel/playwright-pycon
+        - text: Public
+      - paragraph: Project created as a proposal for Pycon Colombia 2024 and it will be used with some enhancements as the baseline project for PyCon US 2025
+      - text: Python
+      - link "star 1":
+        - /url: /JoanEsquivel/playwright-pycon/stargazers
+        - img "star"
+        - text: "1"
+      - link "fork 1":
+        - /url: /JoanEsquivel/playwright-pycon/forks
+        - img "fork"
+        - text: "1"
+      - text: Updated Apr 25, 2025on Apr 25
+    - listitem:
+      - heading "playwright-cucumber-starter Public template" [level=3]:
+        - link "playwright-cucumber-starter":
+          - /url: /JoanEsquivel/playwright-cucumber-starter
+        - text: Public template
+      - paragraph: Playwright + Cucumber project for teaching how to set it up
+      - text: TypeScript
+      - link "star 2":
+        - /url: /JoanEsquivel/playwright-cucumber-starter/stargazers
+        - img "star"
+        - text: "2"
+      - link "fork 4":
+        - /url: /JoanEsquivel/playwright-cucumber-starter/forks
+        - img "fork"
+        - text: "4"
+      - text: Updated Feb 3, 2025on Feb 2
+    - listitem:
+      - heading "playwright-accessibility Public" [level=3]:
+        - link "playwright-accessibility":
+          - /url: /JoanEsquivel/playwright-accessibility
+        - text: Public
+      - paragraph: This project is set up for running automated tests using Playwright with accessibility checks powered by Axe. It includes TypeScript type definitions to ensure type safety during development.
+      - text: JavaScript Updated Aug 18, 2024on Aug 18, 2024
+    - listitem:
+      - heading "playwright-test Public" [level=3]:
+        - link "playwright-test":
+          - /url: /JoanEsquivel/playwright-test
+        - text: Public
+      - paragraph: Simple repo to show playwright basics using JS.
+      - text: JavaScript
+      - link "star 1":
+        - /url: /JoanEsquivel/playwright-test/stargazers
+        - img "star"
+        - text: "1"
+      - link "fork 1":
+        - /url: /JoanEsquivel/playwright-test/forks
+        - img "fork"
+        - text: "1"
+      - text: MIT License Updated Mar 31, 2024on Mar 31, 2024
+    - listitem:
+      - heading "playwright-udemy Public" [level=3]:
+        - link "playwright-udemy":
+          - /url: /JoanEsquivel/playwright-udemy
+        - text: Public
+      - paragraph: udemy course project to teach playwright using JS/TS from scratch with good practices based on documentation, and experience scenarios.
+      - text: TypeScript
+      - link "star 3":
+        - /url: /JoanEsquivel/playwright-udemy/stargazers
+        - img "star"
+        - text: "3"
+      - link "fork 2":
+        - /url: /JoanEsquivel/playwright-udemy/forks
+        - img "fork"
+        - text: "2"
+      - text: Updated Jun 25, 2023on Jun 25, 2023
+    - listitem:
+      - heading "playwright-python-test-framework Public" [level=3]:
+        - link "playwright-python-test-framework":
+          - /url: /JoanEsquivel/playwright-python-test-framework
+        - text: Public
+      - paragraph: Repository to track playwright tests
+      - text: Python
+      - link "star 9":
+        - /url: /JoanEsquivel/playwright-python-test-framework/stargazers
+        - img "star"
+        - text: "9"
+      - link "fork 8":
+        - /url: /JoanEsquivel/playwright-python-test-framework/forks
+        - img "fork"
+        - text: "8"
+      - text: Updated Jan 7, 2023on Jan 7, 2023
+    - listitem:
+      - heading "cypress-playwright-webkit Public" [level=3]:
+        - link "cypress-playwright-webkit":
+          - /url: /JoanEsquivel/cypress-playwright-webkit
+        - text: Public
+      - paragraph: Repository to follow up the Cypress + Webkit integration
+      - link "javascript":
+        - /url: /topics/javascript
+      - link "typescript":
+        - /url: /topics/typescript
+      - link "webkit":
+        - /url: /topics/webkit
+      - link "cypress":
+        - /url: /topics/cypress
+      - link "playwright":
+        - /url: /topics/playwright
+      - text: JavaScript
+      - link "star 4":
+        - /url: /JoanEsquivel/cypress-playwright-webkit/stargazers
+        - img "star"
+        - text: "4"
+      - link "fork 3":
+        - /url: /JoanEsquivel/cypress-playwright-webkit/forks
+        - img "fork"
+        - text: "3"
+      - text: MIT License Updated Sep 18, 2022on Sep 18, 2022
+- contentinfo:
+  - heading "Footer" [level=2]
+  - link "GitHub Homepage":
+    - /url: https://github.com
+  - text: © 2025 GitHub, Inc.
+  - navigation "Footer":
+    - heading "Footer navigation" [level=3]
+    - list "Footer navigation":
+      - listitem:
+        - link "Terms":
+          - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+      - listitem:
+        - link "Privacy":
+          - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+      - listitem:
+        - link "Security":
+          - /url: https://github.com/security
+      - listitem:
+        - link "Status":
+          - /url: https://www.githubstatus.com/
+      - listitem:
+        - link "Docs":
+          - /url: https://docs.github.com/
+      - listitem:
+        - link "Contact":
+          - /url: https://support.github.com?tags=dotcom-footer
+      - listitem:
+        - button "Manage cookies"
+      - listitem:
+        - button "Do not share my personal information"
+- text: 9 results for repositories matching Playwright sorted by last updated Clear filter playwright-pw-api-plugin Public This project is intended to explore and experiment with the Playwright PW API plugin. The goal is to understand its features, capabilities, and best practices for integrating Playwright's API testi… plugin testing api playwright JavaScript 2 Updated May 25, 2025 Uh oh! There was an error while loading. Please reload this page. playwright-mcp-server Public This is an experimental project to integrate Playwright with MCP. My plan is to conduct in-depth research, understand the intricacies of the integration, and review the best articles on the web to … TypeScript 8 1 Updated May 6, 2025 Uh oh! There was an error while loading. Please reload this page. playwright-pycon Public Project created as a proposal for Pycon Colombia 2024 and it will be used with some enhancements as the baseline project for PyCon US 2025 Python 1 1 Updated Apr 25, 2025 Uh oh! There was an error while loading. Please reload this page. playwright-cucumber-starter Public template Playwright + Cucumber project for teaching how to set it up TypeScript 2 4 Updated Feb 3, 2025 Uh oh! There was an error while loading. Please reload this page. playwright-accessibility Public This project is set up for running automated tests using Playwright with accessibility checks powered by Axe. It includes TypeScript type definitions to ensure type safety during development. JavaScript Updated Aug 18, 2024 Uh oh! There was an error while loading. Please reload this page. playwright-test Public Simple repo to show playwright basics using JS. JavaScript 1 1 MIT License Updated Mar 31, 2024 Uh oh! There was an error while loading. Please reload this page. playwright-udemy Public udemy course project to teach playwright using JS/TS from scratch with good practices based on documentation, and experience scenarios. TypeScript 3 2 Updated Jun 25, 2023 Uh oh! There was an error while loading. Please reload this page. playwright-python-test-framework Public Repository to track playwright tests Python 9 8 Updated Jan 7, 2023 Uh oh! There was an error while loading. Please reload this page. cypress-playwright-webkit Public Repository to follow up the Cypress + Webkit integration javascript typescript webkit cypress playwright JavaScript 4 3 MIT License Updated Sep 18, 2022 Uh oh! There was an error while loading. Please reload this page.
+```

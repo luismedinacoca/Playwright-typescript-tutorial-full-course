@@ -1,12 +1,12 @@
 import { defineConfig, devices } from '@playwright/test';
+import dotenv from 'dotenv';
+import path from 'path';
+dotenv.config({ path: path.resolve(__dirname, '.env') });
 
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-// import dotenv from 'dotenv';
-// import path from 'path';
-// dotenv.config({ path: path.resolve(__dirname, '.env') });
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -19,17 +19,25 @@ export default defineConfig({
   },
   testDir: './tests',
   /* Run tests in files in parallel */
-  fullyParallel: false,
+  fullyParallel: true,
+  /* Opt out of parallel tests on CI. */
+  workers: process.env.CI ? 1 : undefined,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
   //retries: process.env.CI ? 2 : 0,
   retries: process.env.CI ? 2 : 0, // "1" from local retries from terminal execution! 
-  /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['html'],
+    ['line'],
+    ['allure-playwright', {
+      outputFolder: 'allure-results', // Carpeta donde se guardarán los resultados raw de Allure
+      detail: true, // Incluir detalles de cada paso
+      // Otras opciones de Allure si las necesitas, por ejemplo:
+      // suiteTitle: false,
+      // categories: [ { name: 'Flaky tests', messageRegex: '.*Flaky.*' } ],
+    }],
     ['list'],
     //['dot'],
     ['json', {outputFile: './playwright-report/json-report/json-test-report.json'}],
@@ -38,6 +46,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     actionTimeout: 10000,
+    video: 'on',
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
     testIdAttribute: 'data-tab-item',

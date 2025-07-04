@@ -1,0 +1,393 @@
+# Page snapshot
+
+```yaml
+- link "Skip to content":
+  - /url: "#start-of-content"
+- banner:
+  - heading "Navigation Menu" [level=2]
+  - link "Homepage":
+    - /url: /
+  - navigation "Global":
+    - list:
+      - listitem:
+        - button "Product"
+      - listitem:
+        - button "Solutions"
+      - listitem:
+        - button "Resources"
+      - listitem:
+        - button "Open Source"
+      - listitem:
+        - button "Enterprise"
+      - listitem:
+        - link "Pricing":
+          - /url: https://github.com/pricing
+  - button "Search or jump to…": Search or jump to...
+  - link "Sign in":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FJoanEsquivel
+  - link "Sign up":
+    - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E&source=header
+  - button "Appearance settings"
+- main:
+  - img "@JoanEsquivel"
+  - strong: JoanEsquivel
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FJoanEsquivel
+  - navigation "User profile":
+    - link "Overview":
+      - /url: /JoanEsquivel
+    - link "Repositories 72":
+      - /url: /JoanEsquivel?tab=repositories
+    - link "Projects 2":
+      - /url: /JoanEsquivel?tab=projects
+    - link "Packages":
+      - /url: /JoanEsquivel?tab=packages
+    - link "Stars 18":
+      - /url: /JoanEsquivel?tab=stars
+  - img "@JoanEsquivel"
+  - strong: JoanEsquivel
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FJoanEsquivel
+  - link "View JoanEsquivel's full-sized avatar":
+    - /url: https://avatars.githubusercontent.com/u/48256183?v=4
+    - img "View JoanEsquivel's full-sized avatar"
+  - text: 🦉 Learning
+  - heading "Joan Esquivel JoanEsquivel" [level=1]
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FJoanEsquivel
+  - text: Quality Assurance Automation Specialist
+  - link "339 followers":
+    - /url: https://github.com/JoanEsquivel?tab=followers
+  - text: ·
+  - link "10 following":
+    - /url: https://github.com/JoanEsquivel?tab=following
+  - list:
+    - 'listitem "Home location: Costa Rica"': Costa Rica
+    - listitem:
+      - link "https://www.joanmedia.dev/":
+        - /url: https://www.joanmedia.dev/
+    - listitem:
+      - img "X"
+      - link "@joan_media":
+        - /url: https://twitter.com/joan_media
+  - heading "Achievements" [level=2]:
+    - link "Achievements":
+      - /url: /JoanEsquivel?tab=achievements
+  - 'link "Achievement: Starstruck"':
+    - /url: /JoanEsquivel?achievement=starstruck&tab=achievements
+    - 'img "Achievement: Starstruck"'
+  - 'link "Achievement: Pull Shark x2"':
+    - /url: /JoanEsquivel?achievement=pull-shark&tab=achievements
+    - 'img "Achievement: Pull Shark"'
+    - text: x2
+  - 'link "Achievement: Quickdraw"':
+    - /url: /JoanEsquivel?achievement=quickdraw&tab=achievements
+    - 'img "Achievement: Quickdraw"'
+  - 'link "Achievement: YOLO"':
+    - /url: /JoanEsquivel?achievement=yolo&tab=achievements
+    - 'img "Achievement: YOLO"'
+  - 'link "Achievement: Arctic Code Vault Contributor"':
+    - /url: /JoanEsquivel?achievement=arctic-code-vault-contributor&tab=achievements
+    - 'img "Achievement: Arctic Code Vault Contributor"'
+  - button "Block or Report"
+  - search "Repositories":
+    - searchbox "Find a repository…": Cypress
+    - group:
+      - button "Type"
+    - group:
+      - button "Language"
+    - group:
+      - button "Sort"
+  - strong: "18"
+  - text: results for repositories matching
+  - strong: Cypress
+  - text: sorted by
+  - strong: last updated
+  - link "Clear filter":
+    - /url: /JoanEsquivel?tab=repositories
+  - list:
+    - listitem:
+      - heading "curso-de-cypress Public" [level=3]:
+        - link "curso-de-cypress":
+          - /url: /JoanEsquivel/curso-de-cypress
+        - text: Public
+      - paragraph: This is a project to learn Cypress from scratch for JoanMedia. The project is designed to help you understand the basics of Cypress, a powerful tool for end-to-end testing.
+      - text: JavaScript
+      - link "star 3":
+        - /url: /JoanEsquivel/curso-de-cypress/stargazers
+        - img "star"
+        - text: "3"
+      - link "fork 2":
+        - /url: /JoanEsquivel/curso-de-cypress/forks
+        - img "fork"
+        - text: "2"
+      - text: Updated Jan 19, 2025on Jan 19
+    - listitem:
+      - heading "cypress-api-framework Public" [level=3]:
+        - link "cypress-api-framework":
+          - /url: /JoanEsquivel/cypress-api-framework
+        - text: Public
+      - paragraph: This repository contains a starter framework for API testing using TypeScript. It includes all the necessary configurations to start writing and running API tests.
+      - text: TypeScript Updated Dec 6, 2024on Dec 6, 2024
+    - listitem:
+      - heading "cypress-wicka11y Public" [level=3]:
+        - link "cypress-wicka11y":
+          - /url: /JoanEsquivel/cypress-wicka11y
+        - text: Public
+      - paragraph: Project to test the wick-a11y plugin fo cypress
+      - text: JavaScript Updated Sep 23, 2024on Sep 23, 2024
+    - listitem:
+      - heading "cypress-ajv-schema-validation Public" [level=3]:
+        - link "cypress-ajv-schema-validation":
+          - /url: /JoanEsquivel/cypress-ajv-schema-validation
+        - text: Public
+      - paragraph: Keep POC to check how the cypress ajv schema validator works.
+      - text: JavaScript Updated Jun 30, 2024on Jun 30, 2024
+    - listitem:
+      - heading "cypress-testing-library-demo Public" [level=3]:
+        - link "cypress-testing-library-demo":
+          - /url: /JoanEsquivel/cypress-testing-library-demo
+        - text: Public
+      - paragraph: Cypress Testing Library allows the use of dom-testing queries within Cypress end-to-end browser tests.
+      - text: JavaScript Updated May 19, 2024on May 19, 2024
+    - listitem:
+      - heading "cypress-13-review Public" [level=3]:
+        - link "cypress-13-review":
+          - /url: /JoanEsquivel/cypress-13-review
+        - text: Public
+      - text: JavaScript MIT License Updated Sep 24, 2023on Sep 24, 2023
+    - listitem:
+      - heading "cypress-cucumber-boilerplate Public template" [level=3]:
+        - link "cypress-cucumber-boilerplate":
+          - /url: /JoanEsquivel/cypress-cucumber-boilerplate
+        - text: Public template
+      - paragraph: Cypress.IO Project using Javascript and Cucumber to start automating E2E tests just cloning it and installing dependencies.
+      - link "javascript":
+        - /url: /topics/javascript
+      - link "testing":
+        - /url: /topics/testing
+      - link "automation":
+        - /url: /topics/automation
+      - link "typescript":
+        - /url: /topics/typescript
+      - link "gherkin":
+        - /url: /topics/gherkin
+      - link "cucumber":
+        - /url: /topics/cucumber
+      - link "cucumberjs":
+        - /url: /topics/cucumberjs
+      - text: JavaScript
+      - link "star 109":
+        - /url: /JoanEsquivel/cypress-cucumber-boilerplate/stargazers
+        - img "star"
+        - text: "109"
+      - link "fork 119":
+        - /url: /JoanEsquivel/cypress-cucumber-boilerplate/forks
+        - img "fork"
+        - text: "119"
+      - text: Updated Aug 21, 2023on Aug 21, 2023
+    - listitem:
+      - heading "cypress-typescript-tips-tricks Public" [level=3]:
+        - link "cypress-typescript-tips-tricks":
+          - /url: /JoanEsquivel/cypress-typescript-tips-tricks
+        - text: Public
+      - paragraph: Project meant to discover new stuff that may help us to develop better scripts
+      - text: TypeScript
+      - link "star 2":
+        - /url: /JoanEsquivel/cypress-typescript-tips-tricks/stargazers
+        - img "star"
+        - text: "2"
+      - text: Updated Mar 18, 2023on Mar 17, 2023
+    - listitem:
+      - heading "cypress-postgres-template Public" [level=3]:
+        - link "cypress-postgres-template":
+          - /url: /JoanEsquivel/cypress-postgres-template
+        - text: Public
+      - paragraph: Simple projecto to demonstrate how to integrate Cypress with Postgres.
+      - text: JavaScript Updated Jan 15, 2023on Jan 14, 2023
+    - listitem:
+      - heading "cypress-plugins Public" [level=3]:
+        - link "cypress-plugins":
+          - /url: /JoanEsquivel/cypress-plugins
+        - text: Public
+      - text: MIT License Updated Jan 7, 2023on Jan 7, 2023
+    - listitem:
+      - heading "cypress-course Public" [level=3]:
+        - link "cypress-course":
+          - /url: /JoanEsquivel/cypress-course
+        - text: Public
+      - paragraph: Private repository that my students can access to download the source code.
+      - text: HTML
+      - link "star 28":
+        - /url: /JoanEsquivel/cypress-course/stargazers
+        - img "star"
+        - text: "28"
+      - link "fork 27":
+        - /url: /JoanEsquivel/cypress-course/forks
+        - img "fork"
+        - text: "27"
+      - text: Updated Dec 29, 2022on Dec 29, 2022
+    - listitem:
+      - heading "cypress-demo-framework Public" [level=3]:
+        - link "cypress-demo-framework":
+          - /url: /JoanEsquivel/cypress-demo-framework
+        - text: Public
+      - paragraph: Cypress IO demo framework built over Youtube videos to teach the framework basics to anyone interested in this technology.
+      - link "javascript":
+        - /url: /topics/javascript
+      - link "testing":
+        - /url: /topics/testing
+      - link "docker":
+        - /url: /topics/docker
+      - link "jenkins":
+        - /url: /topics/jenkins
+      - link "typescript":
+        - /url: /topics/typescript
+      - link "mocha":
+        - /url: /topics/mocha
+      - link "chai":
+        - /url: /topics/chai
+      - text: JavaScript
+      - link "star 26":
+        - /url: /JoanEsquivel/cypress-demo-framework/stargazers
+        - img "star"
+        - text: "26"
+      - link "fork 54":
+        - /url: /JoanEsquivel/cypress-demo-framework/forks
+        - img "fork"
+        - text: "54"
+      - text: Updated Oct 18, 2022on Oct 18, 2022
+    - listitem:
+      - heading "cypress-reports Public" [level=3]:
+        - link "cypress-reports":
+          - /url: /JoanEsquivel/cypress-reports
+        - text: Public
+      - text: JavaScript
+      - link "star 7":
+        - /url: /JoanEsquivel/cypress-reports/stargazers
+        - img "star"
+        - text: "7"
+      - link "fork 10":
+        - /url: /JoanEsquivel/cypress-reports/forks
+        - img "fork"
+        - text: "10"
+      - text: MIT License Updated Oct 16, 2022on Oct 15, 2022
+    - listitem:
+      - heading "cypress-cucumber-preprocessor Public" [level=3]:
+        - link "cypress-cucumber-preprocessor":
+          - /url: /JoanEsquivel/cypress-cucumber-preprocessor
+        - text: Public
+      - text: Forked from
+      - link "badeball/cypress-cucumber-preprocessor":
+        - /url: /badeball/cypress-cucumber-preprocessor
+      - paragraph: Run cucumber/gherkin-syntaxed specs with Cypress
+      - text: TypeScript
+      - link "star 1":
+        - /url: /JoanEsquivel/cypress-cucumber-preprocessor/stargazers
+        - img "star"
+        - text: "1"
+      - text: MIT License Updated Sep 21, 2022on Sep 21, 2022
+    - listitem:
+      - heading "cypress-playwright-webkit Public" [level=3]:
+        - link "cypress-playwright-webkit":
+          - /url: /JoanEsquivel/cypress-playwright-webkit
+        - text: Public
+      - paragraph: Repository to follow up the Cypress + Webkit integration
+      - link "javascript":
+        - /url: /topics/javascript
+      - link "typescript":
+        - /url: /topics/typescript
+      - link "webkit":
+        - /url: /topics/webkit
+      - link "cypress":
+        - /url: /topics/cypress
+      - link "playwright":
+        - /url: /topics/playwright
+      - text: JavaScript
+      - link "star 4":
+        - /url: /JoanEsquivel/cypress-playwright-webkit/stargazers
+        - img "star"
+        - text: "4"
+      - link "fork 3":
+        - /url: /JoanEsquivel/cypress-playwright-webkit/forks
+        - img "fork"
+        - text: "3"
+      - text: MIT License Updated Sep 18, 2022on Sep 18, 2022
+    - listitem:
+      - heading "cypress-webkit Public" [level=3]:
+        - link "cypress-webkit":
+          - /url: /JoanEsquivel/cypress-webkit
+        - text: Public
+      - text: HTML
+      - link "star 1":
+        - /url: /JoanEsquivel/cypress-webkit/stargazers
+        - img "star"
+        - text: "1"
+      - text: Updated Sep 14, 2022on Sep 14, 2022
+    - listitem:
+      - heading "cypress-cucumber Public" [level=3]:
+        - link "cypress-cucumber":
+          - /url: /JoanEsquivel/cypress-cucumber
+        - text: Public
+      - paragraph: This project is a code concept of using cypress and cucumber with page object model
+      - text: HTML
+      - link "star 1":
+        - /url: /JoanEsquivel/cypress-cucumber/stargazers
+        - img "star"
+        - text: "1"
+      - link "fork 5":
+        - /url: /JoanEsquivel/cypress-cucumber/forks
+        - img "fork"
+        - text: "5"
+      - text: Updated Dec 11, 2021on Dec 11, 2021
+    - listitem:
+      - heading "cypress-testrail-reporter Public" [level=3]:
+        - link "cypress-testrail-reporter":
+          - /url: /JoanEsquivel/cypress-testrail-reporter
+        - text: Public
+      - text: Forked from
+      - link "Vivify-Ideas/cypress-testrail-reporter":
+        - /url: /Vivify-Ideas/cypress-testrail-reporter
+      - paragraph: Custom reporter for pushing cypress results to a testrail test run
+      - text: TypeScript
+      - link "star 2":
+        - /url: /JoanEsquivel/cypress-testrail-reporter/stargazers
+        - img "star"
+        - text: "2"
+      - link "fork 2":
+        - /url: /JoanEsquivel/cypress-testrail-reporter/forks
+        - img "fork"
+        - text: "2"
+      - text: MIT License Updated Oct 28, 2021on Oct 28, 2021
+- contentinfo:
+  - heading "Footer" [level=2]
+  - link "GitHub Homepage":
+    - /url: https://github.com
+  - text: © 2025 GitHub, Inc.
+  - navigation "Footer":
+    - heading "Footer navigation" [level=3]
+    - list "Footer navigation":
+      - listitem:
+        - link "Terms":
+          - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+      - listitem:
+        - link "Privacy":
+          - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+      - listitem:
+        - link "Security":
+          - /url: https://github.com/security
+      - listitem:
+        - link "Status":
+          - /url: https://www.githubstatus.com/
+      - listitem:
+        - link "Docs":
+          - /url: https://docs.github.com/
+      - listitem:
+        - link "Contact":
+          - /url: https://support.github.com?tags=dotcom-footer
+      - listitem:
+        - button "Manage cookies"
+      - listitem:
+        - button "Do not share my personal information"
+- text: 18 results for repositories matching Cypress sorted by last updated Clear filter curso-de-cypress Public This is a project to learn Cypress from scratch for JoanMedia. The project is designed to help you understand the basics of Cypress, a powerful tool for end-to-end testing. JavaScript 3 2 Updated Jan 19, 2025 Uh oh! There was an error while loading. Please reload this page. cypress-api-framework Public This repository contains a starter framework for API testing using TypeScript. It includes all the necessary configurations to start writing and running API tests. TypeScript Updated Dec 6, 2024 Uh oh! There was an error while loading. Please reload this page. cypress-wicka11y Public Project to test the wick-a11y plugin fo cypress JavaScript Updated Sep 23, 2024 Uh oh! There was an error while loading. Please reload this page. cypress-ajv-schema-validation Public Keep POC to check how the cypress ajv schema validator works. JavaScript Updated Jun 30, 2024 Uh oh! There was an error while loading. Please reload this page. cypress-testing-library-demo Public Cypress Testing Library allows the use of dom-testing queries within Cypress end-to-end browser tests. JavaScript Updated May 19, 2024 Uh oh! There was an error while loading. Please reload this page. cypress-13-review Public JavaScript MIT License Updated Sep 24, 2023 Uh oh! There was an error while loading. Please reload this page. cypress-cucumber-boilerplate Public template Cypress.IO Project using Javascript and Cucumber to start automating E2E tests just cloning it and installing dependencies. javascript testing automation typescript gherkin cucumber cucumberjs JavaScript 109 119 Updated Aug 21, 2023 Uh oh! There was an error while loading. Please reload this page. cypress-typescript-tips-tricks Public Project meant to discover new stuff that may help us to develop better scripts TypeScript 2 Updated Mar 18, 2023 Uh oh! There was an error while loading. Please reload this page. cypress-postgres-template Public Simple projecto to demonstrate how to integrate Cypress with Postgres. JavaScript Updated Jan 15, 2023 Uh oh! There was an error while loading. Please reload this page. cypress-plugins Public MIT License Updated Jan 7, 2023 Uh oh! There was an error while loading. Please reload this page. cypress-course Public Private repository that my students can access to download the source code. HTML 28 27 Updated Dec 29, 2022 Uh oh! There was an error while loading. Please reload this page. cypress-demo-framework Public Cypress IO demo framework built over Youtube videos to teach the framework basics to anyone interested in this technology. javascript testing docker jenkins typescript mocha chai JavaScript 26 54 Updated Oct 18, 2022 Uh oh! There was an error while loading. Please reload this page. cypress-reports Public JavaScript 7 10 MIT License Updated Oct 16, 2022 Uh oh! There was an error while loading. Please reload this page. cypress-cucumber-preprocessor Public Forked from badeball/cypress-cucumber-preprocessor Run cucumber/gherkin-syntaxed specs with Cypress TypeScript 1 MIT License Updated Sep 21, 2022 Uh oh! There was an error while loading. Please reload this page. cypress-playwright-webkit Public Repository to follow up the Cypress + Webkit integration javascript typescript webkit cypress playwright JavaScript 4 3 MIT License Updated Sep 18, 2022 Uh oh! There was an error while loading. Please reload this page. cypress-webkit Public HTML 1 Updated Sep 14, 2022 Uh oh! There was an error while loading. Please reload this page. cypress-cucumber Public This project is a code concept of using cypress and cucumber with page object model HTML 1 5 Updated Dec 11, 2021 Uh oh! There was an error while loading. Please reload this page. cypress-testrail-reporter Public Forked from Vivify-Ideas/cypress-testrail-reporter Custom reporter for pushing cypress results to a testrail test run TypeScript 2 2 MIT License Updated Oct 28, 2021 Uh oh! There was an error while loading. Please reload this page.
+```

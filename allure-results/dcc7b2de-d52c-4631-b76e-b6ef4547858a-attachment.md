@@ -1,0 +1,186 @@
+# Page snapshot
+
+```yaml
+- link "Skip to content":
+  - /url: "#start-of-content"
+- banner:
+  - heading "Navigation Menu" [level=2]
+  - link "Homepage":
+    - /url: /
+  - navigation "Global":
+    - list:
+      - listitem:
+        - button "Product"
+      - listitem:
+        - button "Solutions"
+      - listitem:
+        - button "Resources"
+      - listitem:
+        - button "Open Source"
+      - listitem:
+        - button "Enterprise"
+      - listitem:
+        - link "Pricing":
+          - /url: https://github.com/pricing
+  - button "Search or jump to…": Search or jump to...
+  - link "Sign in":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FJoanEsquivel
+  - link "Sign up":
+    - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E&source=header
+  - button "Appearance settings"
+- main:
+  - img "@JoanEsquivel"
+  - strong: JoanEsquivel
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FJoanEsquivel
+  - navigation "User profile":
+    - link "Overview":
+      - /url: /JoanEsquivel
+    - link "Repositories 72":
+      - /url: /JoanEsquivel?tab=repositories
+    - link "Projects 2":
+      - /url: /JoanEsquivel?tab=projects
+    - link "Packages":
+      - /url: /JoanEsquivel?tab=packages
+    - link "Stars 18":
+      - /url: /JoanEsquivel?tab=stars
+  - img "@JoanEsquivel"
+  - strong: JoanEsquivel
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FJoanEsquivel
+  - link "View JoanEsquivel's full-sized avatar":
+    - /url: https://avatars.githubusercontent.com/u/48256183?v=4
+    - img "View JoanEsquivel's full-sized avatar"
+  - text: 🦉 Learning
+  - heading "Joan Esquivel JoanEsquivel" [level=1]
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FJoanEsquivel
+  - text: Quality Assurance Automation Specialist
+  - link "339 followers":
+    - /url: https://github.com/JoanEsquivel?tab=followers
+  - text: ·
+  - link "10 following":
+    - /url: https://github.com/JoanEsquivel?tab=following
+  - list:
+    - 'listitem "Home location: Costa Rica"': Costa Rica
+    - listitem:
+      - link "https://www.joanmedia.dev/":
+        - /url: https://www.joanmedia.dev/
+    - listitem:
+      - img "X"
+      - link "@joan_media":
+        - /url: https://twitter.com/joan_media
+  - heading "Achievements" [level=2]:
+    - link "Achievements":
+      - /url: /JoanEsquivel?tab=achievements
+  - 'link "Achievement: Starstruck"':
+    - /url: /JoanEsquivel?achievement=starstruck&tab=achievements
+    - 'img "Achievement: Starstruck"'
+  - 'link "Achievement: Pull Shark x2"':
+    - /url: /JoanEsquivel?achievement=pull-shark&tab=achievements
+    - 'img "Achievement: Pull Shark"'
+    - text: x2
+  - 'link "Achievement: Quickdraw"':
+    - /url: /JoanEsquivel?achievement=quickdraw&tab=achievements
+    - 'img "Achievement: Quickdraw"'
+  - 'link "Achievement: YOLO"':
+    - /url: /JoanEsquivel?achievement=yolo&tab=achievements
+    - 'img "Achievement: YOLO"'
+  - 'link "Achievement: Arctic Code Vault Contributor"':
+    - /url: /JoanEsquivel?achievement=arctic-code-vault-contributor&tab=achievements
+    - 'img "Achievement: Arctic Code Vault Contributor"'
+  - button "Block or Report"
+  - search "Repositories":
+    - searchbox "Find a repository…": API
+    - group:
+      - button "Type"
+    - group:
+      - button "Language"
+    - group:
+      - button "Sort"
+  - strong: "4"
+  - text: results for repositories matching
+  - strong: API
+  - text: sorted by
+  - strong: last updated
+  - link "Clear filter":
+    - /url: /JoanEsquivel?tab=repositories
+  - list:
+    - listitem:
+      - heading "playwright-pw-api-plugin Public" [level=3]:
+        - link "playwright-pw-api-plugin":
+          - /url: /JoanEsquivel/playwright-pw-api-plugin
+        - text: Public
+      - paragraph: This project is intended to explore and experiment with the Playwright PW API plugin. The goal is to understand its features, capabilities, and best practices for integrating Playwright's API testi…
+      - link "plugin":
+        - /url: /topics/plugin
+      - link "testing":
+        - /url: /topics/testing
+      - link "api":
+        - /url: /topics/api
+      - link "playwright":
+        - /url: /topics/playwright
+      - text: JavaScript
+      - link "star 2":
+        - /url: /JoanEsquivel/playwright-pw-api-plugin/stargazers
+        - img "star"
+        - text: "2"
+      - text: Updated May 25, 2025on May 25
+    - listitem:
+      - heading "cypress-api-framework Public" [level=3]:
+        - link "cypress-api-framework":
+          - /url: /JoanEsquivel/cypress-api-framework
+        - text: Public
+      - paragraph: This repository contains a starter framework for API testing using TypeScript. It includes all the necessary configurations to start writing and running API tests.
+      - text: TypeScript Updated Dec 6, 2024on Dec 6, 2024
+    - listitem:
+      - heading "fast-api-demo Public" [level=3]:
+        - link "fast-api-demo":
+          - /url: /JoanEsquivel/fast-api-demo
+        - text: Public
+      - paragraph: Project to discover how Fast API works and have a standard project to test API automation frameworks.
+      - text: Python
+      - link "star 2":
+        - /url: /JoanEsquivel/fast-api-demo/stargazers
+        - img "star"
+        - text: "2"
+      - text: Updated Oct 11, 2024on Oct 10, 2024
+    - listitem:
+      - heading "search-user-github-app Public" [level=3]:
+        - link "search-user-github-app":
+          - /url: /JoanEsquivel/search-user-github-app
+        - text: Public
+      - paragraph: Project where I learned and applied Vue 3 to get data from the GitHub API and display the data in UI. Also, the app is capable to add favorites, save data in local storage and access cached data.
+      - text: HTML Updated Jul 11, 2022on Jul 10, 2022
+- contentinfo:
+  - heading "Footer" [level=2]
+  - link "GitHub Homepage":
+    - /url: https://github.com
+  - text: © 2025 GitHub, Inc.
+  - navigation "Footer":
+    - heading "Footer navigation" [level=3]
+    - list "Footer navigation":
+      - listitem:
+        - link "Terms":
+          - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+      - listitem:
+        - link "Privacy":
+          - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+      - listitem:
+        - link "Security":
+          - /url: https://github.com/security
+      - listitem:
+        - link "Status":
+          - /url: https://www.githubstatus.com/
+      - listitem:
+        - link "Docs":
+          - /url: https://docs.github.com/
+      - listitem:
+        - link "Contact":
+          - /url: https://support.github.com?tags=dotcom-footer
+      - listitem:
+        - button "Manage cookies"
+      - listitem:
+        - button "Do not share my personal information"
+- text: 4 results for repositories matching API sorted by last updated Clear filter playwright-pw-api-plugin Public This project is intended to explore and experiment with the Playwright PW API plugin. The goal is to understand its features, capabilities, and best practices for integrating Playwright's API testi… plugin testing api playwright JavaScript 2 Updated May 25, 2025 Uh oh! There was an error while loading. Please reload this page. cypress-api-framework Public This repository contains a starter framework for API testing using TypeScript. It includes all the necessary configurations to start writing and running API tests. TypeScript Updated Dec 6, 2024 Uh oh! There was an error while loading. Please reload this page. fast-api-demo Public Project to discover how Fast API works and have a standard project to test API automation frameworks. Python 2 Updated Oct 11, 2024 Uh oh! There was an error while loading. Please reload this page. search-user-github-app Public Project where I learned and applied Vue 3 to get data from the GitHub API and display the data in UI. Also, the app is capable to add favorites, save data in local storage and access cached data. HTML Updated Jul 11, 2022 Uh oh! There was an error while loading. Please reload this page.
+```

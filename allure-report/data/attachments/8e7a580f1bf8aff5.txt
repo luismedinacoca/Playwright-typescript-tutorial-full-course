@@ -1,0 +1,5 @@
+Clicks en Next: 3
+Día seleccionado: 5
+Fecha esperada: 09/05/2025
+Fecha actual en input: 09/05/2025
+Finish Handling Datepicker test cases!

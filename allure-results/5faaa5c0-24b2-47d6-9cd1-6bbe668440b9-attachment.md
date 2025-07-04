@@ -1,0 +1,462 @@
+# Page snapshot
+
+```yaml
+- link "DuckDuckGo":
+  - /url: /?t=h_
+- combobox: Javascript - JoanMedia
+- button "search": S
+- banner:
+  - img
+  - paragraph: Upgrade to our browser.
+- img
+- img
+- img
+- paragraph:
+  - text: Try the
+  - strong: DuckDuckGo Browser.
+  - text: Fast. Free. Private.
+- link "Download Browser":
+  - /url: https://duckduckgo.com/windows?origin=funnel_browser_searchresults__popover
+  - img
+  - text: Download Browser
+- paragraph: Free
+- button:
+  - img
+- button "Open menu":
+  - text: Open menu
+  - img
+- navigation:
+  - list:
+    - listitem:
+      - link "All":
+        - /url: /?t=h_&q=Javascript+-+JoanMedia&ia=web
+        - img
+        - text: All
+    - listitem:
+      - link "Images":
+        - /url: /?t=h_&q=Javascript+-+JoanMedia&ia=images&iax=images
+    - listitem:
+      - link "Videos":
+        - /url: /?t=h_&q=Javascript+-+JoanMedia&ia=videos&iax=videos
+    - listitem:
+      - link "News":
+        - /url: /?t=h_&q=Javascript+-+JoanMedia&ia=news&iar=news
+    - listitem:
+      - link "Maps":
+        - /url: /?t=h_&q=Javascript+-+JoanMedia&iaxm=maps
+  - list:
+    - listitem:
+      - link "Assist":
+        - /url: /?t=h_&q=Javascript+-+JoanMedia&ia=web&assist=true
+        - img
+        - text: Assist
+    - listitem:
+      - link "Duck.ai":
+        - /url: /?t=h_&q=Javascript+-+JoanMedia&ia=chat
+        - img
+        - text: Duck.ai
+    - listitem:
+      - button "Search Settings ✀":
+        - img
+        - text: Search Settings ✀
+- navigation:
+  - text: Always protected
+  - switch "✓"
+  - text: "Argentina Safe search: moderate Any time"
+- list:
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: youtube.com
+      - link "Only include results for this site":
+        - /url: "?q=Javascript%20-%20JoanMedia%20site%3Awww.youtube.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Javascript%20-%20JoanMedia%20-site%3Awww.youtube.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain youtube.com":
+        - /url: /?q=Javascript%20%2D%20JoanMedia+site:www.youtube.com&t=h_
+        - img
+      - paragraph: YouTube
+      - link "https://www.youtube.com › c › joanmedia":
+        - /url: https://www.youtube.com/c/joanmedia
+        - paragraph: https://www.youtube.com › c › joanmedia
+      - heading "JoanMedia - YouTube" [level=2]:
+        - link "JoanMedia - YouTube":
+          - /url: https://www.youtube.com/c/joanmedia
+      - text: AUTOMATION & TECHNOLOGY in simple words. In this channel you will find free content related to the Software Engineer Area(Front End, Backend, Software Quality Assurance/Quality Control, and Devops).
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: joanmedia.dev
+      - link "Only include results for this site":
+        - /url: "?q=Javascript%20-%20JoanMedia%20site%3Awww.joanmedia.dev"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Javascript%20-%20JoanMedia%20-site%3Awww.joanmedia.dev"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain joanmedia.dev":
+        - /url: /?q=Javascript%20%2D%20JoanMedia+site:www.joanmedia.dev&t=h_
+        - img
+      - paragraph: joanmedia.dev
+      - link "https://www.joanmedia.dev › blog › tag › Javascript":
+        - /url: https://www.joanmedia.dev/blog/tag/Javascript
+        - paragraph: https://www.joanmedia.dev › blog › tag › Javascript
+      - heading "Blog - Javascript - joanmedia.dev" [level=2]:
+        - link "Blog - Javascript - joanmedia.dev":
+          - /url: https://www.joanmedia.dev/blog/tag/Javascript
+      - text: Javascript Typescript Web Automation How to setup Appium for Mobile Testing + WebdriverIO WebdriverIO I want to share my experience with Appium and WebdriverIO for mobile testing. I will share my setup for both Android and IOS, and how to run the tests. Also, I will be sharing an example of how to run the tests in a real device using BrowserStack.
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: linkedin.com
+      - link "Only include results for this site":
+        - /url: "?q=Javascript%20-%20JoanMedia%20site%3Awww.linkedin.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Javascript%20-%20JoanMedia%20-site%3Awww.linkedin.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain linkedin.com":
+        - /url: /?q=Javascript%20%2D%20JoanMedia+site:www.linkedin.com&t=h_
+        - img
+      - paragraph: LinkedIn
+      - link "https://www.linkedin.com › posts › joanmedia_playwright-free-course-using-javascript-or-activity-7278273015002411008-y7Q9":
+        - /url: https://www.linkedin.com/posts/joanmedia_playwright-free-course-using-javascript-or-activity-7278273015002411008-y7Q9
+        - paragraph: https://www.linkedin.com › posts › joanmedia_playwright-free-course-using-javascript-or-activity-7278273015002411008-y7Q9
+      - 'heading "JoanMedia on LinkedIn: Playwright Free Course using Javascript or ..." [level=2]':
+        - 'link "JoanMedia on LinkedIn: Playwright Free Course using Javascript or ..."':
+          - /url: https://www.linkedin.com/posts/joanmedia_playwright-free-course-using-javascript-or-activity-7278273015002411008-y7Q9
+      - text: 🎉 Exciting News! 🎉 I&#39;m thrilled to announce a FREE course on my website featuring a comprehensive series of videos about Playwright…
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: github.com
+      - link "Only include results for this site":
+        - /url: "?q=Javascript%20-%20JoanMedia%20site%3Agithub.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Javascript%20-%20JoanMedia%20-site%3Agithub.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain github.com":
+        - /url: /?q=Javascript%20%2D%20JoanMedia+site:github.com&t=h_
+        - img
+      - paragraph: Github
+      - link "https://github.com › topics › joanmedia":
+        - /url: https://github.com/topics/joanmedia
+        - paragraph: https://github.com › topics › joanmedia
+      - heading "joanmedia · GitHub Topics · GitHub" [level=2]:
+        - link "joanmedia · GitHub Topics · GitHub":
+          - /url: https://github.com/topics/joanmedia
+      - text: javascript testing docker jenkins typescript mocha chai cicd cypress applitools github-actions joanmedia Updated on Oct 18, 2022 JavaScript
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: youtube.com
+      - link "Only include results for this site":
+        - /url: "?q=Javascript%20-%20JoanMedia%20site%3Awww.youtube.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Javascript%20-%20JoanMedia%20-site%3Awww.youtube.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain youtube.com":
+        - /url: /?q=Javascript%20%2D%20JoanMedia+site:www.youtube.com&t=h_
+        - img
+      - paragraph: YouTube
+      - link "https://www.youtube.com › @JoanMediaES":
+        - /url: https://www.youtube.com/@JoanMediaES
+        - paragraph: https://www.youtube.com › @JoanMediaES
+      - heading "JoanMedia ES - YouTube" [level=2]:
+        - link "JoanMedia ES - YouTube":
+          - /url: https://www.youtube.com/@JoanMediaES
+      - text: Share your videos with friends, family, and the world
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: joanmedia.dev
+      - link "Only include results for this site":
+        - /url: "?q=Javascript%20-%20JoanMedia%20site%3Awww.joanmedia.dev"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Javascript%20-%20JoanMedia%20-site%3Awww.joanmedia.dev"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain joanmedia.dev":
+        - /url: /?q=Javascript%20%2D%20JoanMedia+site:www.joanmedia.dev&t=h_
+        - img
+      - paragraph: joanmedia.dev
+      - link "https://www.joanmedia.dev › blog › playwright-free-course-using-javascript-or-typescript":
+        - /url: https://www.joanmedia.dev/blog/playwright-free-course-using-javascript-or-typescript
+        - paragraph: https://www.joanmedia.dev › blog › playwright-free-course-using-javascript-or-typescript
+      - heading "Playwright Free Course using Javascript or Typescript - joanmedia.dev" [level=2]:
+        - link "Playwright Free Course using Javascript or Typescript - joanmedia.dev":
+          - /url: https://www.joanmedia.dev/blog/playwright-free-course-using-javascript-or-typescript
+      - text: Dec 26, 2024·I created a set of free videos in youtube about Playwright. I will be sharing my experience with Playwright and how to use it in real projects related with automation.
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: linkedin.com
+      - link "Only include results for this site":
+        - /url: "?q=Javascript%20-%20JoanMedia%20site%3Awww.linkedin.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Javascript%20-%20JoanMedia%20-site%3Awww.linkedin.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain linkedin.com":
+        - /url: /?q=Javascript%20%2D%20JoanMedia+site:www.linkedin.com&t=h_
+        - img
+      - paragraph: LinkedIn
+      - link "https://www.linkedin.com › posts › joanmedia_webdriverio-serenityjs-screenplay-pattern-activity-7119716060576014337-tmGG":
+        - /url: https://www.linkedin.com/posts/joanmedia_webdriverio-serenityjs-screenplay-pattern-activity-7119716060576014337-tmGG
+        - paragraph: https://www.linkedin.com › posts › joanmedia_webdriverio-serenityjs-screenplay-pattern-activity-7119716060576014337-tmGG
+      - 'heading "JoanMedia on LinkedIn: WebdriverIO + Serenity/JS: SCREENPLAY PATTERN ..." [level=2]':
+        - 'link "JoanMedia on LinkedIn: WebdriverIO + Serenity/JS: SCREENPLAY PATTERN ..."':
+          - /url: https://www.linkedin.com/posts/joanmedia_webdriverio-serenityjs-screenplay-pattern-activity-7119716060576014337-tmGG
+      - text: Serenity/JS is an innovative test automation framework designed to help you create high-quality, business-focused test scenarios that interact with any…
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: joanmedia.ruclips.net
+      - link "Only include results for this site":
+        - /url: "?q=Javascript%20-%20JoanMedia%20site%3Ajoanmedia.ruclips.net"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Javascript%20-%20JoanMedia%20-site%3Ajoanmedia.ruclips.net"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain joanmedia.ruclips.net":
+        - /url: /?q=Javascript%20%2D%20JoanMedia+site:joanmedia.ruclips.net&t=h_
+        - img
+      - paragraph: joanmedia.ruclips.net
+      - link "https://joanmedia.ruclips.net":
+        - /url: https://joanmedia.ruclips.net/
+        - paragraph: https://joanmedia.ruclips.net
+      - heading "JoanMedia" [level=2]:
+        - link "JoanMedia":
+          - /url: https://joanmedia.ruclips.net/
+      - text: "@joanmedia 2 месяца назад You can skip the clicks and accept every change. 👍🏻 also, the difference with a recorder is that it will generate a plain script, not a full framework."
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: joanmedia.dev
+      - link "Only include results for this site":
+        - /url: "?q=Javascript%20-%20JoanMedia%20site%3Awww.joanmedia.dev"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Javascript%20-%20JoanMedia%20-site%3Awww.joanmedia.dev"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain joanmedia.dev":
+        - /url: /?q=Javascript%20%2D%20JoanMedia+site:www.joanmedia.dev&t=h_
+        - img
+      - paragraph: joanmedia.dev
+      - link "https://www.joanmedia.dev":
+        - /url: https://www.joanmedia.dev/
+        - paragraph: https://www.joanmedia.dev
+      - heading "Joan Esquivel | JoanMedia - Software Development & Quality Management" [level=2]:
+        - link "Joan Esquivel | JoanMedia - Software Development & Quality Management":
+          - /url: https://www.joanmedia.dev/
+      - text: Personal website where I post information related to my brand JoanMedia, and all the work I do for social media and tech conferences
+  - listitem:
+    - article:
+      - button:
+        - img
+      - img
+      - paragraph: github.com
+      - link "Only include results for this site":
+        - /url: "?q=Javascript%20-%20JoanMedia%20site%3Agithub.com"
+        - img
+        - text: Only include results for this site
+      - link "Hide site from these results":
+        - /url: "?q=Javascript%20-%20JoanMedia%20-site%3Agithub.com"
+        - img
+        - text: Hide site from these results
+      - img
+      - text: Share feedback about this site
+      - link "Search domain github.com":
+        - /url: /?q=Javascript%20%2D%20JoanMedia+site:github.com&t=h_
+        - img
+      - paragraph: Github
+      - link "https://github.com › JoanEsquivel › joanmedia":
+        - /url: https://github.com/JoanEsquivel/joanmedia
+        - paragraph: https://github.com › JoanEsquivel › joanmedia
+      - heading "GitHub - JoanEsquivel/joanmedia" [level=2]:
+        - link "GitHub - JoanEsquivel/joanmedia":
+          - /url: https://github.com/JoanEsquivel/joanmedia
+      - text: Contribute to JoanEsquivel/joanmedia development by creating an account on GitHub.
+- button "More results"
+- list:
+  - button "Close menu":
+    - text: Close menu
+    - img
+  - paragraph: Upgrade to our Private Browser
+  - paragraph: Fast. Secure. Free.
+  - link "Install Windows Browser":
+    - /url: /windows
+    - img
+    - text: Install Windows Browser
+  - list:
+    - listitem: Search
+    - listitem:
+      - link "Homepage":
+        - /url: https://start.duckduckgo.com/
+    - listitem:
+      - link "Themes":
+        - /url: /settings#appearance
+    - listitem:
+      - link "Settings":
+        - /url: /settings
+  - list:
+    - listitem: Share Feedback
+    - listitem:
+      - button "Positive feedback":
+        - img
+      - button "Negative feedback":
+        - img
+  - list:
+    - listitem: Downloads
+    - listitem:
+      - link "iOS Browser":
+        - /url: https://apps.apple.com/app/duckduckgo-private-browser/id663592361?platform=iphone&pt=866401&mt=8&ct=serp-atb-serp
+    - listitem:
+      - link "Android Browser":
+        - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_campaign%3Dserp-atb-serp%26origin%3Dfunnel_playstore_searchresults
+    - listitem:
+      - link "Mac Browser":
+        - /url: /mac?origin=funnel_browser_searchresults
+    - listitem:
+      - link "Windows Browser":
+        - /url: /windows?origin=funnel_browser_searchresults
+    - listitem:
+      - link "Browser Extensions":
+        - /url: /duckduckgo-help-pages/desktop/adding-duckduckgo-to-your-browser/
+  - list:
+    - listitem: More From DuckDuckGo
+    - listitem:
+      - link "Duck.ai":
+        - /url: https://duck.ai
+      - text: NEW
+    - listitem:
+      - link "Email Protection":
+        - /url: /email
+    - listitem:
+      - link "Newsletter":
+        - /url: /newsletter
+    - listitem:
+      - link "Blog":
+        - /url: /blog
+  - list:
+    - listitem: Learn More
+    - listitem:
+      - link "What’s New":
+        - /url: /updates
+    - listitem:
+      - link "Compare Privacy":
+        - /url: /compare-privacy
+    - listitem:
+      - link "About Our Browser":
+        - /url: /app
+    - listitem:
+      - link "About DuckDuckGo":
+        - /url: /about
+  - list:
+    - listitem: Other Resources
+    - listitem:
+      - link "Help":
+        - /url: /duckduckgo-help-pages
+    - listitem:
+      - link "Community":
+        - /url: https://www.reddit.com/r/duckduckgo/
+    - listitem:
+      - link "Careers":
+        - /url: /careers
+    - listitem:
+      - link "Privacy Policy":
+        - /url: /privacy
+    - listitem:
+      - link "Terms of Service":
+        - /url: /terms
+    - listitem:
+      - link "Press Kit":
+        - /url: /press
+    - listitem:
+      - link "Advertise on Search":
+        - /url: /duckduckgo-help-pages/company/advertise-on-duckduckgo-search
+- img
+- heading "Get Our Windows Browser" [level=3]
+- paragraph: Protect your data as you search and browse.
+- link "Download":
+  - /url: https://duckduckgo.com/windows?origin=funnel_browser_searchresults__footercard
+  - img
+  - text: Download
+- heading "Learn More" [level=3]
+- list:
+  - listitem:
+    - link "What's New":
+      - /url: https://duckduckgo.com/updates
+  - listitem:
+    - link "About Browser":
+      - /url: https://duckduckgo.com/app
+  - listitem:
+    - link "Compare Privacy":
+      - /url: https://duckduckgo.com/compare-privacy
+- heading "Get More" [level=3]
+- list:
+  - listitem:
+    - link "Email Protection":
+      - /url: https://duckduckgo.com/email
+  - listitem:
+    - link "Newsletter":
+      - /url: https://duckduckgo.com/newsletter
+- button "Share Feedback"
+```
