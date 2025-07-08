@@ -14,9 +14,6 @@ try {
     throw new Error(`Archivo Excel no encontrado: ${filePath}`);
   }
 
-  // 2. Leer archivo con encoding explícito
-  //const fileContent = fs.readFileSync(filePath, { encoding: 'utf-8' });
-
   for(const record of records){
     const skill1 = record['skill_01'];
     const skill2 = record['skill_02'];

@@ -1,0 +1,2 @@
+[ 'selenium-gradle', 'selenium-advanced-framework' ]
+isContained:  true

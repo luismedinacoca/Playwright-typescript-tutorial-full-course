@@ -1,6 +1,19 @@
 // Import playwright module
 import { test, expect } from '@playwright/test';
 
+test('Cursor en Swag Demo', async ({page}) => {
+  await page.goto('https://www.saucedemo.com/');
+  await page.locator('[data-test="username"]').first().toBeEditable();
+  await page.locator('[data-test="username"]').first().toBeVisible();
+  await page.locator('[data-test="username"]').first().toBeEnabled();
+  await page.locator('[data-test="username"]').first().toBeEnabled();
+  await page.locator('[data-test="username"]').first().not.toBeEmpty();
+  await page.locator('[data-test="username"]').first().toHaveCount(1);
+  await page.locator('[data-test="username"]').first().click();
+  await page.locator('[data-test="username"]').first().fill('standard_user');
+})
+
+
 // write a test
 test('My First Playwright Typescript Test', async ({ page }) => {
   // Go to URL

@@ -1,0 +1,378 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - link "Merriam-Webster Logo":
+      - /url: /
+      - img "Merriam-Webster Logo"
+    - button "Dictionary On. Search will provide dictionary results.": Dictionary Thesaurus
+    - searchbox "Search": undefined
+    - button "Close Search":
+      - img
+    - button "Search Word":
+      - img
+    - list:
+      - listitem:
+        - link "Games":
+          - /url: /games
+      - listitem:
+        - link "Word of the Day":
+          - /url: /word-of-the-day
+      - listitem:
+        - link "Grammar":
+          - /url: /grammar
+      - listitem:
+        - link "Wordplay":
+          - /url: /wordplay
+      - listitem:
+        - link "Slang":
+          - /url: /slang
+      - listitem:
+        - link "Rhymes":
+          - /url: /rhymes
+      - listitem:
+        - link "Word Finder":
+          - /url: /wordfinder
+      - listitem:
+        - link "Thesaurus":
+          - /url: /thesaurus
+      - listitem:
+        - button "More"
+- iframe
+- link "Dictionary":
+  - /url: "#"
+- list:
+  - listitem:
+    - link "Definition":
+      - /url: "#dictionary-entry-1"
+  - listitem
+  - listitem:
+    - link "Synonyms":
+      - /url: "#synonyms"
+  - listitem:
+    - link "Example Sentences":
+      - /url: "#examples"
+  - listitem:
+    - link "Word History":
+      - /url: "#word-history"
+  - listitem:
+    - link "Rhymes":
+      - /url: "#related-rhymes"
+  - listitem:
+    - link "Entries Near":
+      - /url: "#nearby-entries"
+- list:
+  - listitem:
+    - button "Show more"
+- list:
+  - listitem:
+    - button "Save Word"
+- heading "undefined" [level=1]
+- heading "adjective" [level=2]:
+  - link "adjective":
+    - /url: /dictionary/adjective
+- text: un·de·fined
+- link "ˌən-di-ˈfīnd":
+  - /url: https://www.merriam-webster.com/dictionary/undefined?pronunciation&lang=en_us&dir=u&file=undef03ld
+  - text: ˌən-di-ˈfīnd
+  - img
+- link "Synonyms of undefined":
+  - /url: /thesaurus/undefined
+  - text: Synonyms of
+  - emphasis: undefined
+  - img
+- strong: ":"
+- text: not
+- link "defined":
+  - /url: /dictionary/define
+- text: ": such as a"
+- strong: ":"
+- text: not clearly or precisely shown, described, or limited undefined rules undefined powers a vague, undefined feeling of dread … the true outlines of Clinton's foreign policy remain undefined. —
+- img
+- text: William Greider b
+- strong: ":"
+- text: not provided with a definition an undefined dictionary entry
+- iframe
+- text: ADVERTISEMENT
+- heading "Synonyms" [level=2]
+- list:
+  - listitem:
+    - link "vague":
+      - /url: /dictionary/vague
+  - listitem:
+    - link "faint":
+      - /url: /dictionary/faint
+- link "See All Synonyms & Antonyms in Thesaurus":
+  - /url: /thesaurus/undefined
+- heading "Examples of undefined in a Sentence" [level=2]:
+  - text: Examples of
+  - emphasis: undefined
+  - text: in a Sentence
+- text: plagued by
+- emphasis: undefined
+- text: worries that kept her awake at night Recent Examples on the Web
+- img
+- text: Examples are automatically compiled from online sources to show current usage. Opinions expressed in the examples do not represent those of Merriam-Webster or its editors.
+- link "Send us feedback":
+  - /url: https://docs.google.com/forms/d/1GAQr3Kn1cURCVHUA82hAga1Wv8DCH0IuqDLRUrOpN7M/viewform?ts=63f4f653&entry.1515682415=https://www.merriam-webster.com/dictionary%2Fundefined
+- text: . Finally, an
+- emphasis: undefined
+- text: robot voice affirms that the differences between Camilo and his lover are clear, and might cause issues in the long run. —
+- img
+- text: Andrea Flores,
+- emphasis: Los Angeles Times
+- text: ", 26 June 2025 At the start of the film, Laura, played by Paula Beer, is experiencing an"
+- emphasis: undefined
+- text: mental crisis but reluctantly agrees to go on a car journey with her boyfriend. —
+- img
+- text: Leo Barraclough,
+- emphasis: Variety
+- text: ", 17 May 2025 And trust drives engagement, growth and influence far more effectively than trying to please a broad,"
+- emphasis: undefined
+- text: audience. —
+- img
+- text: Conrad Young,
+- emphasis: Forbes.com
+- text: ", 5 June 2025 Even though the offer was"
+- emphasis: undefined
+- text: ", Adams was intrigued. —"
+- img
+- text: Matthew Fairburn,
+- emphasis: New York Times
+- text: ", 2 June 2025"
+- link "See All Example Sentences for undefined":
+  - /url: /sentences/undefined
+  - text: See All Example Sentences for
+  - emphasis: undefined
+- text: ADVERTISEMENT
+- heading "Word History" [level=2]
+- text: First Known Use
+- paragraph:
+  - text: 1611, in the meaning defined
+  - link "above":
+    - /url: "#h1"
+- text: Time Traveler The first known use of
+- emphasis: undefined
+- text: was in 1611
+- link "See more words from the same year":
+  - /url: /time-traveler/1611?src=defrecirc-timetraveler-etycard
+- heading "Rhymes for undefined" [level=2]:
+  - text: Rhymes for
+  - emphasis: undefined
+- list:
+  - listitem:
+    - link "aligned":
+      - /url: /dictionary/aligned
+  - listitem:
+    - link "alined":
+      - /url: /dictionary/alined
+  - listitem:
+    - link "assigned":
+      - /url: /dictionary/assigned
+  - listitem:
+    - link "behind":
+      - /url: /dictionary/behind
+  - listitem:
+    - link "combined":
+      - /url: /dictionary/combined
+  - listitem:
+    - link "confined":
+      - /url: /dictionary/confined
+  - listitem:
+    - link "consigned":
+      - /url: /dictionary/consigned
+  - listitem:
+    - link "declined":
+      - /url: /dictionary/declined
+  - listitem:
+    - link "defined":
+      - /url: /dictionary/defined
+  - listitem:
+    - link "designed":
+      - /url: /dictionary/designed
+  - listitem:
+    - link "divined":
+      - /url: /dictionary/divined
+  - listitem:
+    - link "enshrined":
+      - /url: /dictionary/enshrined
+- link "See All Rhymes for undefined":
+  - /url: /rhymes/perfect/undefined
+  - text: See All Rhymes for
+  - emphasis: undefined
+- heading "Browse Nearby Words" [level=2]
+- link "undefinable":
+  - /url: /dictionary/undefinable
+- text: undefined
+- link "undeflected":
+  - /url: /dictionary/undeflected
+- link "See all Nearby Words":
+  - /url: /browse/dictionary/u/7
+- heading "Cite this Entry" [level=2]
+- text: Style
+- combobox "Style":
+  - option "MLA" [selected]
+  - option "Chicago"
+  - option "APA"
+  - option "Merriam-Webster"
+- paragraph:
+  - text: “Undefined.”
+  - emphasis: Merriam-Webster.com Dictionary
+  - text: ", Merriam-Webster, https://www.merriam-webster.com/dictionary/undefined. Accessed 7 Jul. 2025."
+- link "Copy Citation":
+  - /url: ""
+- heading "Share" [level=2]
+- link:
+  - /url: "#"
+- link:
+  - /url: "#"
+- text: "Last Updated:"
+- time: 5 Jul 2025
+- text: "- Updated example sentences Love words? Need even more definitions?"
+- paragraph: Subscribe to America's largest dictionary and get thousands more definitions and advanced search—ad free!
+- link "Merriam-Webster unabridged":
+  - /url: https://premium.britannica.com/mw-unabridged/?utm_source=mw&utm_medium=inline-def&utm_campaign=evergreen
+- iframe
+- text: ADVERTISEMENT
+- 'link "Play Quordle: Guess all four words in a limited number of tries. Each of your guesses must be a real 5-letter word. Can you solve 4 words at once? Play"':
+  - /url: https://www.merriam-webster.com/games/quordle/
+  - 'img "Play Quordle: Guess all four words in a limited number of tries. Each of your guesses must be a real 5-letter word."'
+  - heading "Can you solve 4 words at once?" [level=3]
+  - button "Play"
+- iframe
+- text: ADVERTISEMENT
+- link "Merriam Webster":
+  - /url: /
+  - img
+- heading "Word of the Day" [level=4]:
+  - link "Word of the Day":
+    - /url: /word-of-the-day
+- heading "procrastinate" [level=4]:
+  - link "procrastinate":
+    - /url: /word-of-the-day
+- link "Listen to the pronunciation of procrastinate":
+  - /url: https://www.merriam-webster.com/dictionary/undefined?pronunciation&lang=en_us&dir=p&file=procra01
+  - img
+- paragraph:
+  - link "See Definitions and Examples":
+    - /url: /word-of-the-day
+  - text: »
+- paragraph: Get Word of the Day daily email!
+- button "SUBSCRIBE"
+- textbox "Subscribe to Word of the Day"
+- iframe
+- text: ADVERTISEMENT
+- heading "Popular in Grammar & Usage" [level=2]
+- link "See More":
+  - /url: /grammar
+- link "alt 5b3a37db4f353 'Affect' vs. 'Effect'":
+  - /url: /grammar/affect-vs-effect-usage-difference
+  - img "alt 5b3a37db4f353"
+  - heading "'Affect' vs. 'Effect'" [level=3]
+- link "lone hiker walking on ben lomond mountain More Words You Always Have to Look Up":
+  - /url: /grammar/more-words-you-always-have-to-look-up
+  - img "lone hiker walking on ben lomond mountain"
+  - heading "More Words You Always Have to Look Up" [level=3]
+- link "series of bullet points Using Bullet Points ( • )":
+  - /url: /grammar/how-to-use-bullet-points
+  - img "series of bullet points"
+  - heading "Using Bullet Points ( • )" [level=3]
+- link "alt-671bc8a38e2f8 Why is '-ed' sometimes pronounced at the end of a word?":
+  - /url: /grammar/why-do-we-pronounce-ed-at-the-end-of-a-word
+  - img "alt-671bc8a38e2f8"
+  - heading "Why is '-ed' sometimes pronounced at the end of a word?" [level=3]
+- link "dog with a perplexed expression Words You Always Have to Look Up":
+  - /url: /grammar/words-you-always-have-to-look-up
+  - img "dog with a perplexed expression"
+  - heading "Words You Always Have to Look Up" [level=3]
+- heading "Popular in Wordplay" [level=2]
+- link "See More":
+  - /url: /wordplay
+- link "alt 592333459542f How 'Namaste' Entered The English Language":
+  - /url: /wordplay/the-history-of-namaste
+  - img "alt 592333459542f"
+  - heading "How 'Namaste' Entered The English Language" [level=3]
+- link "alt-68362132d8a91 12 Lovely and Unusual Words for the Natural World":
+  - /url: /wordplay/words-from-the-natural-world
+  - img "alt-68362132d8a91"
+  - heading "12 Lovely and Unusual Words for the Natural World" [level=3]
+- link "alt-682c9e03c16b6 10 Hella Good U.S. Regionalisms":
+  - /url: /wordplay/ten-regionalisms
+  - img "alt-682c9e03c16b6"
+  - heading "10 Hella Good U.S. Regionalisms" [level=3]
+- link "top 10 words to up your game scrabble qi 'Za' and 9 Other Words to Help You Win at SCRABBLE":
+  - /url: /wordplay/top-10-secrets-of-scrabble-masters
+  - img "top 10 words to up your game scrabble qi"
+  - heading "'Za' and 9 Other Words to Help You Win at SCRABBLE" [level=3]
+- link "words with remarkable origins vol 2 cappuccino More Words with Remarkable Origins":
+  - /url: /wordplay/top-10-words-with-remarkable-origins-vol-2
+  - img "words with remarkable origins vol 2 cappuccino"
+  - heading "More Words with Remarkable Origins" [level=3]
+- heading "Games & Quizzes" [level=2]
+- link "See All":
+  - /url: /games
+- 'link "Play Quordle: Guess all four words in a limited number of tries. Each of your guesses must be a real 5-letter word. Quordle Can you solve 4 words at once? Play"':
+  - /url: https://www.merriam-webster.com/games/quordle/
+  - 'img "Play Quordle: Guess all four words in a limited number of tries. Each of your guesses must be a real 5-letter word."'
+  - text: Quordle Can you solve 4 words at once?
+  - button "Play"
+- 'link "Play Blossom: Solve today''s spelling word game by finding as many words as you can using just 7 letters. Longer words score more points. Blossom Pick the best words! Play"':
+  - /url: /games/blossom-word-game
+  - 'img "Play Blossom: Solve today''s spelling word game by finding as many words as you can using just 7 letters. Longer words score more points."'
+  - text: Blossom Pick the best words!
+  - button "Play"
+- 'link "Play Missing Letter: a crossword with a twist. Each of the 25 puzzle words start with a different letter of the alphabet. Which letter is missing? Missing Letter A daily crossword with a twist Play"':
+  - /url: /games/missing-letter
+  - 'img "Play Missing Letter: a crossword with a twist. Each of the 25 puzzle words start with a different letter of the alphabet. Which letter is missing?"'
+  - text: Missing Letter A daily crossword with a twist
+  - button "Play"
+- link "name tags Words Named After People Quiz Find out who’s behind \"leotard,\" \"morphine,\" an... Take the quiz":
+  - /url: /games/eponym-quiz
+  - img "name tags"
+  - text: Words Named After People Quiz Find out who’s behind "leotard," "morphine," an...
+  - button "Take the quiz"
+- contentinfo:
+  - link "Merriam Webster":
+    - /url: /
+  - paragraph: Learn a new word every day. Delivered to your inbox!
+  - textbox "Sign up for Merriam-Webster's Word of the Day newsletter"
+  - button "Subscribe": SUBSCRIBE
+  - list:
+    - listitem:
+      - link "Help":
+        - /url: /help
+    - listitem:
+      - link "About Us":
+        - /url: /about-us
+    - listitem:
+      - link "Advertising Info":
+        - /url: /advertising
+    - listitem:
+      - link "Contact Us":
+        - /url: /contact-us
+    - listitem:
+      - link "Privacy Policy":
+        - /url: /privacy-policy
+    - listitem:
+      - link "Terms of Use":
+        - /url: /terms-of-use
+  - list:
+    - listitem:
+      - link "Facebook":
+        - /url: https://www.facebook.com/merriamwebster
+    - listitem:
+      - link "Twitter":
+        - /url: https://twitter.com/merriamwebster
+    - listitem:
+      - link "YouTube":
+        - /url: https://www.youtube.com/user/MerriamWebsterOnline
+    - listitem:
+      - link "Instagram":
+        - /url: https://www.instagram.com/merriamwebster/
+  - paragraph: © 2025 Merriam-Webster, Incorporated
+- iframe
+- text: Information from your device can be used to personalize your ad experience.
+- link "Do not sell or share my personal information.":
+  - /url: /
+```
