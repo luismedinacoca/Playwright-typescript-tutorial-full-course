@@ -1,9 +1,11 @@
 import { test, expect } from '@playwright/test';
 import { HomePage } from '../../src/pages/HomePage';
 import { ResultPage } from '../../src/pages/ResultPage';
-import { PlaylistPage } from '../../src/pages/PLaylistPage';
+import { PlaylistPage } from '../../src/pages/PlaylistPage';
 
 test('Page Object Model Test', async({ page })=> {
+  console.log('Test executing...');
+  
   //create homepage object
   const homepage = new HomePage(page);
   await homepage.goToURL();
