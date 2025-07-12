@@ -55,11 +55,13 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     //trace: ['off' | 'on' | 'on-first-retry' | 'on-all-retries' | 'retain-on-failure' | 'retain-on-first-failure' ]
     trace: 'on-all-retries',
+    launchOptions: {
+      args:['--start-maximized']
+    },
   },
 
   /* Configure projects for major browsers */
   projects: [
-    /*
     {
       name: 'firefox',
       use: { 
@@ -67,14 +69,14 @@ export default defineConfig({
       viewport: { width: 1512, height: 972 },
       },
     },
-    */
-  
+    /*
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'],
-        viewport: { width: 1512, height: 972 }
+        viewport: { width: 1920, height: 1080 }
       },
     },
+    */
 
     /*
     {

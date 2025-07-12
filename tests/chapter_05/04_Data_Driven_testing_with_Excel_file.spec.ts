@@ -40,7 +40,7 @@ async function performSearch(page: any, skill: string){
   }
 
   await page.goto('https://github.com/JoanEsquivel');
-  await page.getByRole('link', {name: 'Repositories 72'}).click();
+  await page.getByRole('link', {name: 'Repositories 73'}).click();
   await page.getByRole('searchbox', {name: 'Find a repository…'}).fill(skill);
   //await page.waitForTimeout(1500);
 

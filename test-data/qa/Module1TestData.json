@@ -1,0 +1,7 @@
+{
+  "Module1TestData":{
+    "skill01": "playwright-pw-api-plugin",
+    "skill02": "cypress-testing-library-demo",
+    "skill03": "fast-api-demo"
+  }
+}
