@@ -1,0 +1,11 @@
+{
+  "firstname": "Ricardo",
+  "lastname": "Wolff",
+  "totalprice": 937,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-07-01",
+    "checkout": "2025-08-01"
+  },
+  "additionalneeds": "Chief Communications Facilitator"
+}

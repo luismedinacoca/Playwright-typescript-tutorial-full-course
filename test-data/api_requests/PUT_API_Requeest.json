@@ -1,0 +1,11 @@
+{
+  "firstname": "Jettie",
+  "lastname": "Balistreri",
+  "totalprice": 1534,
+  "depositpaid": false,
+  "bookingdates": { 
+    "checkin": "2025-07-21", 
+    "checkout": "2025-07-22" 
+  },
+  "additionalneeds": "Senior Configuration Planner"
+}
