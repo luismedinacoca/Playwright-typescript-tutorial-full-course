@@ -33,7 +33,7 @@ test.describe.only('TimeOut - Describe', () => {
     await page.waitForTimeout(60000);
   });
 
-  test.only('Test #02: Selecting the today date', async () => {
+  test('Test #02: Selecting the today date', async () => {
     const today = myToday();
     const dateInput = iframe.locator('#datepicker');
     await dateInput.click();

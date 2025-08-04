@@ -93,7 +93,7 @@ test.describe('Hooks in Playwright - Suggested and enhanced by Deepseek', () => 
     await expect(page.getByRole('heading', { name: 'Try the Copilot-powered' })).toBeVisible();
   });
 
-  test('Test #03: Check user profile', async ({ page }) => {
+  test('Test #03: Check user profile', {tag: ['@PlaywrightWithJenkins']}, async ({ page }) => {
     console.log("👉🏽 Running Test #03");
     await page.goto('https://github.com/');
     await page.getByRole('link', { name: 'Sign up' }).click();

@@ -37,7 +37,7 @@ test('Cursor', async ({page}) => {
   await expect(page.locator('ytd-section-list-renderer')).toContainText('Playwright with JavaScript by Testers Talk');
 })
 
-test('Cursor en Swag Demo01', async ({page}) => {
+test('Cursor en Swag Demo01', {tag: ['@PlaywrightWithJenkins']}, async ({page}) => {
   await page.goto('https://www.saucedemo.com/');
   await page.locator('[data-test="username"]').click();
   await page.locator('[data-test="username"]').fill('standard_user');

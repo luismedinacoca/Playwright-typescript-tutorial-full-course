@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Working with checkbo & radio buttons', () => {
-  test('Test #01: Applying .allInnerTexts() method', async ({ page }) => {
+  test('Test #01: Applying .allInnerTexts() method', {tag: ['@PlaywrightWithJenkins']}, async ({ page }) => {
     await page.goto('https://jqueryui.com/checkboxradio');
 
     const iframe = await page.frameLocator('[class="demo-frame"]');

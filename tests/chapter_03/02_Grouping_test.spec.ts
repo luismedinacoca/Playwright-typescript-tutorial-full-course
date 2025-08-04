@@ -158,7 +158,7 @@ test.describe('RegressionTesting', () => {
     console.log("Fecha actual en input:", await dateInput.inputValue());
   });
 
-  test('Test #06: PAST Random month and day selection with verification', async ({ page }) => {
+  test('Test #06: PAST Random month and day selection with verification', {tag: ['@PlaywrightWithJenkins']}, async ({ page }) => {
     const dateInput = iframe.locator('#datepicker');
     
     // Abrir el datepicker

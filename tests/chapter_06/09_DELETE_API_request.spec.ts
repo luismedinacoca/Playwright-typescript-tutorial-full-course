@@ -5,7 +5,7 @@ import patchAPIRequest from '../../test-data/api_requests/PATCH_API_Requeest.jso
 test.use({
   baseURL: process.env.BASE_API_URL,
 })
-test('Create DELETE API request using Faker library only ', async({request}) =>{
+test('Create DELETE API request using Faker library only ', {tag: ['@PlaywrightWithJenkins']}, async({request}) =>{
   const firstname = faker.person.firstName(); 
   const lastname = faker.person.lastName(); 
   const totalprice = faker.number.int({min: 1000, max: 10000});
